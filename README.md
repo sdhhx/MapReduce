@@ -76,55 +76,55 @@ MapReduce
 ```
 配置文件如下：	  
 ```
-		{
-			；可选Distributed与Single
-			"Mode" : "Distributed",
-			;可选Master与Worker；单机执行填写Master
-			"Type" : "Worker",
-			;本机信息
-			"LocalIP" : "127.0.0.1",
-			"LocalPort" : 5003,
-			;Master节点信息
-			"Master" : {
+	{
+		；可选Distributed与Single
+		"Mode" : "Distributed",
+		;可选Master与Worker；单机执行填写Master
+		"Type" : "Worker",
+		;本机信息
+		"LocalIP" : "127.0.0.1",
+		"LocalPort" : 5003,
+		;Master节点信息
+		"Master" : {
+			"ipAddress": "127.0.0.1",
+			"port": 5000,
+			"username": "root",
+			"password": "123456789"
+		},
+		;Worker节点信息
+		"WorkerList" : [
+			{
 				"ipAddress": "127.0.0.1",
-				"port": 5000,
+				"port": 5001,
 				"username": "root",
 				"password": "123456789"
 			},
-			;Worker节点信息
-			"WorkerList" : [
-				{
-					"ipAddress": "127.0.0.1",
-					"port": 5001,
-					"username": "root",
-					"password": "123456789"
-				},
-				{
-					"ipAddress": "127.0.0.1",
-					"port": 5002,
-					"username": "root",
-					"password": "123456789"
-				},
-				{
-					"ipAddress": "127.0.0.1",
-					"port": 5003,
-					"username": "root",
-					"password": "123456789"
-				},
-				{
-					"ipAddress": "127.0.0.1",
-					"port": 5004,
-					"username": "root",
-					"password": "123456789"
-				},
-				{
-					"ipAddress": "127.0.0.1",
-					"port": 5005,
-					"username": "root",
-					"password": "123456789"
-				}
-			]
-		}
+			{
+				"ipAddress": "127.0.0.1",
+				"port": 5002,
+				"username": "root",
+				"password": "123456789"
+			},
+			{
+				"ipAddress": "127.0.0.1",
+				"port": 5003,
+				"username": "root",
+				"password": "123456789"
+			},
+			{
+				"ipAddress": "127.0.0.1",
+				"port": 5004,
+				"username": "root",
+				"password": "123456789"
+			},
+			{
+				"ipAddress": "127.0.0.1",
+				"port": 5005,
+				"username": "root",
+				"password": "123456789"
+			}
+		]
+	}
 ```
 3. 编写程序并执行。其入口类编写方法如下：  
 ```
@@ -173,5 +173,4 @@ MapReduce
 
 ## 不足与改进点
 1. 对系统宕机等差错处理不完善，存在隐患。  
-2. 整个流程的效率还可以提高，例如某一Reduce任务响应的Map任务执行完毕后，该Reduce任务可以立即执行而非等待。  
-
+2. 整个流程的并行度还可以提高，例如某一Reduce任务响应的Map任务执行完毕后，该Reduce任务可以立即执行而非等待。  
