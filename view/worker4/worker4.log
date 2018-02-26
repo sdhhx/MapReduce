@@ -1,0 +1,99 @@
+19:40:07.295 [main] INFO cc.litstar.config.ConfReader - Starting reading information from config file
+19:40:07.369 [main] INFO cc.litstar.config.ConfReader - Reading config.json finished
+19:40:07.369 [main] INFO cc.litstar.main.StartMapReduce - Run as worker
+19:40:07.391 [main] DEBUG io.netty.util.internal.logging.InternalLoggerFactory - Using SLF4J as the default logging framework
+19:40:07.394 [main] DEBUG io.netty.channel.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 8
+19:40:07.425 [main] DEBUG io.netty.util.internal.PlatformDependent0 - -Dio.netty.noUnsafe: false
+19:40:07.426 [main] DEBUG io.netty.util.internal.PlatformDependent0 - Java version: 8
+19:40:07.427 [main] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+19:40:07.428 [main] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+19:40:07.429 [main] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+19:40:07.429 [main] DEBUG io.netty.util.internal.PlatformDependent0 - direct buffer constructor: available
+19:40:07.430 [main] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: available, true
+19:40:07.430 [main] DEBUG io.netty.util.internal.PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+19:40:07.430 [main] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): available
+19:40:07.430 [main] DEBUG io.netty.util.internal.PlatformDependent - sun.misc.Unsafe: available
+19:40:07.431 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.tmpdir: /tmp (java.io.tmpdir)
+19:40:07.431 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+19:40:07.433 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+19:40:07.433 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.maxDirectMemory: 894959616 bytes
+19:40:07.433 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+19:40:07.434 [main] DEBUG io.netty.util.internal.CleanerJava6 - java.nio.ByteBuffer.cleaner(): available
+19:40:07.455 [main] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+19:40:07.455 [main] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+19:40:07.464 [main] DEBUG io.netty.util.internal.PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+19:40:07.486 [main] INFO cc.litstar.comm.CommServer - Mapreduce server init sucessful
+19:40:07.504 [main] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.processId: 12087 (auto-detected)
+19:40:07.507 [main] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv4Stack: false
+19:40:07.507 [main] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv6Addresses: false
+19:40:07.508 [main] DEBUG io.netty.util.NetUtil - Loopback interface: lo (lo, 0:0:0:0:0:0:0:1%lo)
+19:40:07.509 [main] DEBUG io.netty.util.NetUtil - /proc/sys/net/core/somaxconn: 128
+19:40:07.513 [main] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.machineId: 00:0c:29:ff:fe:94:cb:d2 (auto-detected)
+19:40:07.519 [main] DEBUG io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+19:40:07.519 [main] DEBUG io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+19:40:07.529 [main] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+19:40:07.530 [main] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.maxRecords: 4
+19:40:07.530 [main] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.maxSampledRecords: 40
+19:40:07.559 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 8
+19:40:07.560 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 8
+19:40:07.560 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+19:40:07.560 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 11
+19:40:07.560 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 16777216
+19:40:07.560 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.tinyCacheSize: 512
+19:40:07.560 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+19:40:07.560 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+19:40:07.560 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+19:40:07.560 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+19:40:07.560 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: true
+19:40:07.571 [main] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: pooled
+19:40:07.571 [main] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 65536
+19:40:07.571 [main] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+19:40:07.590 [main] INFO cc.litstar.core.Worker - Sending register information to master
+19:40:07.594 [nioEventLoopGroup-2-1] INFO cc.litstar.comm.CommServer - Mapreduce server start sucessful
+19:40:07.602 [main] INFO cc.litstar.comm.CommClient - Mapreduce client init sucessful
+19:40:07.695 [nioEventLoopGroup-4-1] INFO cc.litstar.comm.CommClient - Starting sending messages
+19:40:07.699 [nioEventLoopGroup-4-1] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.maxCapacityPerThread: 32768
+19:40:07.699 [nioEventLoopGroup-4-1] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+19:40:07.699 [nioEventLoopGroup-4-1] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.linkCapacity: 16
+19:40:07.699 [nioEventLoopGroup-4-1] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.ratio: 8
+19:40:07.721 [nioEventLoopGroup-4-1] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.bytebuf.checkAccessible: true
+19:40:07.722 [nioEventLoopGroup-4-1] DEBUG io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@63769f15
+19:40:15.508 [Thread-0] INFO cc.litstar.core.WorkerMQHandler - Get Message: {"mapNumber":3,"masterInfo":{"ipAddress":"10.108.101.74","port":5000,"username":"root","password":"123456789"},"filePath":"/root/eclipse-workspace/MapReduce/resource/mrtmp.book.txt-3"}
+19:40:15.512 [Thread-1] INFO cc.litstar.core.Worker - Get file: [/root/eclipse-workspace/MapReduce/resource/mrtmp.book.txt-3] from master
+19:40:15.513 [Thread-0] INFO cc.litstar.core.WorkerMQHandler - Get Message: {"mapNumber":8,"masterInfo":{"ipAddress":"10.108.101.74","port":5000,"username":"root","password":"123456789"},"filePath":"/root/eclipse-workspace/MapReduce/resource/mrtmp.book.txt-8"}
+19:40:15.513 [Thread-2] INFO cc.litstar.core.Worker - Get file: [/root/eclipse-workspace/MapReduce/resource/mrtmp.book.txt-8] from master
+19:40:16.982 [Thread-1] INFO cc.litstar.core.MapReduce - DoMap: read split mrtmp.book.txt-3:94995
+19:40:16.982 [Thread-2] INFO cc.litstar.core.MapReduce - DoMap: read split mrtmp.book.txt-8:94409
+19:40:17.061 [Thread-1] INFO cc.litstar.comm.CommClient - Mapreduce client init sucessful
+sending successful
+19:40:17.084 [nioEventLoopGroup-6-1] INFO cc.litstar.comm.CommClient - Starting sending messages
+19:40:17.101 [Thread-2] INFO cc.litstar.comm.CommClient - Mapreduce client init sucessful
+sending successful
+19:40:17.103 [nioEventLoopGroup-7-1] INFO cc.litstar.comm.CommClient - Starting sending messages
+19:40:17.155 [Thread-0] INFO cc.litstar.core.WorkerMQHandler - Get Message: {"reduceNumber":3,"workerList":[{"ipAddress":"10.108.100.236","port":5001,"username":"root","password":"123456789"},{"ipAddress":"10.108.100.125","port":5002,"username":"root","password":"123456789"},{"ipAddress":"10.108.100.240","port":5003,"username":"root","password":"123456789"},{"ipAddress":"10.108.103.102","port":5004,"username":"root","password":"123456789"},{"ipAddress":"10.108.100.247","port":5005,"username":"root","password":"123456789"}],"workerMap":{"0":0,"1":1,"2":2,"3":3,"4":4,"5":0,"6":1,"7":2,"8":3,"9":4},"mapFilePath":{"0":"/root/eclipse-workspace/MapReduce/resource/mrtmp.book.txt-0-3","1":"/root/eclipse-workspace/MapReduce/resource/mrtmp.book.txt-1-3","2":"/root/eclipse-workspace/MapReduce/resource/mrtmp.book.txt-2-3","3":"/root/eclipse-workspace/MapReduce/resource/mrtmp.book.txt-3-3","4":"/root/eclipse-workspace/MapReduce/resource/mrtmp.book.txt-4-3","5":"/root/eclipse-workspace/MapReduce/resource/mrtmp.book.txt-5-3","6":"/root/eclipse-workspace/MapReduce/resource/mrtmp.book.txt-6-3","7":"/root/eclipse-workspace/MapReduce/resource/mrtmp.book.txt-7-3","8":"/root/eclipse-workspace/MapReduce/resource/mrtmp.book.txt-8-3","9":"/root/eclipse-workspace/MapReduce/resource/mrtmp.book.txt-9-3"}}
+19:40:17.519 [Thread-5] INFO cc.litstar.core.Worker - Get file: [/root/eclipse-workspace/MapReduce/resource/mrtmp.book.txt-0-3] from worker 0
+19:40:17.848 [Thread-5] INFO cc.litstar.core.Worker - Get file: [/root/eclipse-workspace/MapReduce/resource/mrtmp.book.txt-1-3] from worker 1
+19:40:18.223 [Thread-5] INFO cc.litstar.core.Worker - Get file: [/root/eclipse-workspace/MapReduce/resource/mrtmp.book.txt-2-3] from worker 2
+19:40:18.223 [Thread-5] INFO cc.litstar.core.Worker - Get file: [/root/eclipse-workspace/MapReduce/resource/mrtmp.book.txt-3-3] from worker 3
+19:40:18.613 [Thread-5] INFO cc.litstar.core.Worker - Get file: [/root/eclipse-workspace/MapReduce/resource/mrtmp.book.txt-4-3] from worker 4
+19:40:18.955 [Thread-5] INFO cc.litstar.core.Worker - Get file: [/root/eclipse-workspace/MapReduce/resource/mrtmp.book.txt-5-3] from worker 0
+19:40:19.318 [Thread-5] INFO cc.litstar.core.Worker - Get file: [/root/eclipse-workspace/MapReduce/resource/mrtmp.book.txt-6-3] from worker 1
+19:40:19.685 [Thread-5] INFO cc.litstar.core.Worker - Get file: [/root/eclipse-workspace/MapReduce/resource/mrtmp.book.txt-7-3] from worker 2
+19:40:19.685 [Thread-5] INFO cc.litstar.core.Worker - Get file: [/root/eclipse-workspace/MapReduce/resource/mrtmp.book.txt-8-3] from worker 3
+19:40:20.025 [Thread-5] INFO cc.litstar.core.Worker - Get file: [/root/eclipse-workspace/MapReduce/resource/mrtmp.book.txt-9-3] from worker 4
+19:40:20.025 [Thread-5] INFO cc.litstar.core.MapReduce - DoReduce: read map mrtmp.book.txt-0-3:22870
+19:40:20.025 [Thread-5] INFO cc.litstar.core.MapReduce - DoReduce: read map mrtmp.book.txt-1-3:23493
+19:40:20.025 [Thread-5] INFO cc.litstar.core.MapReduce - DoReduce: read map mrtmp.book.txt-2-3:23121
+19:40:20.025 [Thread-5] INFO cc.litstar.core.MapReduce - DoReduce: read map mrtmp.book.txt-3-3:23659
+19:40:20.025 [Thread-5] INFO cc.litstar.core.MapReduce - DoReduce: read map mrtmp.book.txt-4-3:22642
+19:40:20.025 [Thread-5] INFO cc.litstar.core.MapReduce - DoReduce: read map mrtmp.book.txt-5-3:22464
+19:40:20.025 [Thread-5] INFO cc.litstar.core.MapReduce - DoReduce: read map mrtmp.book.txt-6-3:22897
+19:40:20.025 [Thread-5] INFO cc.litstar.core.MapReduce - DoReduce: read map mrtmp.book.txt-7-3:21986
+19:40:20.026 [Thread-5] INFO cc.litstar.core.MapReduce - DoReduce: read map mrtmp.book.txt-8-3:23086
+19:40:20.026 [Thread-5] INFO cc.litstar.core.MapReduce - DoReduce: read map mrtmp.book.txt-9-3:22094
+19:40:20.194 [Thread-5] INFO cc.litstar.comm.CommClient - Mapreduce client init sucessful
+19:40:20.195 [Thread-5] INFO cc.litstar.core.Worker - sending successful
+19:40:20.205 [nioEventLoopGroup-8-1] INFO cc.litstar.comm.CommClient - Starting sending messages
+19:40:22.952 [Thread-0] INFO cc.litstar.core.WorkerMQHandler - Get Message: {"info":"ShutDown"}
+19:40:22.956 [Thread-14] INFO cc.litstar.comm.CommClient - Mapreduce client init sucessful
+19:40:22.959 [nioEventLoopGroup-9-1] INFO cc.litstar.comm.CommClient - Starting sending messages

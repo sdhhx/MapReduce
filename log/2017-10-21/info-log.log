@@ -1,0 +1,236 @@
+2017-10-21 15:59:14.791 [main] INFO  cc.litstar.config.ConfReader - Starting reading information from config file
+2017-10-21 15:59:14.850 [main] INFO  cc.litstar.config.ConfReader - Reading config.json finished
+2017-10-21 16:35:32.816 [main] INFO  cc.litstar.config.ConfReader - Starting reading information from config file
+2017-10-21 16:35:32.873 [main] INFO  cc.litstar.config.ConfReader - Reading config.json finished
+2017-10-21 16:35:56.583 [main] INFO  cc.litstar.config.ConfReader - Starting reading information from config file
+2017-10-21 16:35:56.635 [main] INFO  cc.litstar.config.ConfReader - Reading config.json finished
+2017-10-21 16:37:15.282 [main] INFO  cc.litstar.config.ConfReader - Starting reading information from config file
+2017-10-21 16:37:15.361 [main] INFO  cc.litstar.config.ConfReader - Reading config.json finished
+2017-10-21 16:37:24.717 [main] INFO  cc.litstar.config.ConfReader - Starting reading information from config file
+2017-10-21 16:37:24.774 [main] INFO  cc.litstar.config.ConfReader - Reading config.json finished
+2017-10-21 17:10:20.793 [main] INFO  cc.litstar.config.ConfReader - Starting reading information from config file
+2017-10-21 17:10:20.850 [main] INFO  cc.litstar.config.ConfReader - Reading config.json finished
+2017-10-21 17:10:35.109 [main] INFO  cc.litstar.config.ConfReader - Starting reading information from config file
+2017-10-21 17:10:35.158 [main] INFO  cc.litstar.config.ConfReader - Reading config.json finished
+2017-10-21 17:10:56.899 [main] INFO  cc.litstar.config.ConfReader - Starting reading information from config file
+2017-10-21 17:10:56.954 [main] INFO  cc.litstar.config.ConfReader - Reading config.json finished
+2017-10-21 17:19:45.112 [main] INFO  cc.litstar.config.ConfReader - Starting reading information from config file
+2017-10-21 17:19:45.167 [main] INFO  cc.litstar.config.ConfReader - Reading config.json finished
+2017-10-21 17:20:00.991 [main] INFO  cc.litstar.config.ConfReader - Starting reading information from config file
+2017-10-21 17:20:01.046 [main] INFO  cc.litstar.config.ConfReader - Reading config.json finished
+2017-10-21 17:20:07.527 [main] INFO  cc.litstar.config.ConfReader - Starting reading information from config file
+2017-10-21 17:20:07.585 [main] INFO  cc.litstar.config.ConfReader - Reading config.json finished
+2017-10-21 17:20:18.411 [main] INFO  cc.litstar.config.ConfReader - Starting reading information from config file
+2017-10-21 17:20:18.465 [main] INFO  cc.litstar.config.ConfReader - Reading config.json finished
+2017-10-21 17:20:18.529 [main] INFO  cc.litstar.core.Worker - Worker init fail, cannot found config in file.
+2017-10-21 17:20:27.962 [main] INFO  cc.litstar.config.ConfReader - Starting reading information from config file
+2017-10-21 17:20:28.016 [main] INFO  cc.litstar.config.ConfReader - Reading config.json finished
+2017-10-21 17:21:22.747 [main] INFO  cc.litstar.config.ConfReader - Starting reading information from config file
+2017-10-21 17:21:22.798 [main] INFO  cc.litstar.config.ConfReader - Reading config.json finished
+2017-10-21 17:21:22.860 [main] INFO  cc.litstar.core.Master - Master init fail, cannot found config in file.
+2017-10-21 17:46:06.102 [main] INFO  cc.litstar.config.ConfReader - Starting reading information from config file
+2017-10-21 17:46:06.154 [main] INFO  cc.litstar.config.ConfReader - Reading config.json finished
+2017-10-21 17:46:19.042 [main] INFO  cc.litstar.config.ConfReader - Starting reading information from config file
+2017-10-21 17:46:19.097 [main] INFO  cc.litstar.config.ConfReader - Reading config.json finished
+2017-10-21 17:46:19.164 [main] INFO  cc.litstar.core.Worker - Sending register information to master
+2017-10-21 17:46:19.408 [main] INFO  cc.litstar.comm.CommClient - Mapreduce client init sucessful
+2017-10-21 17:46:20.626 [nioEventLoopGroup-2-1] INFO  cc.litstar.comm.CommClient - Sending messages encountered problems
+2017-10-21 17:46:23.653 [nioEventLoopGroup-2-1] INFO  cc.litstar.comm.CommClient - Mapreduce client init sucessful
+2017-10-21 17:46:24.659 [nioEventLoopGroup-3-1] INFO  cc.litstar.comm.CommClient - Sending messages encountered problems
+2017-10-21 17:46:27.678 [nioEventLoopGroup-3-1] INFO  cc.litstar.comm.CommClient - Mapreduce client init sucessful
+2017-10-21 17:46:28.686 [nioEventLoopGroup-4-1] INFO  cc.litstar.comm.CommClient - Sending messages encountered problems
+2017-10-21 17:46:31.704 [nioEventLoopGroup-4-1] INFO  cc.litstar.comm.CommClient - Mapreduce client init sucessful
+2017-10-21 17:46:32.711 [nioEventLoopGroup-5-1] INFO  cc.litstar.comm.CommClient - Sending messages encountered problems
+2017-10-21 17:46:35.728 [nioEventLoopGroup-5-1] INFO  cc.litstar.comm.CommClient - Mapreduce client init sucessful
+2017-10-21 17:46:36.735 [nioEventLoopGroup-6-1] INFO  cc.litstar.comm.CommClient - Sending messages encountered problems
+2017-10-21 17:46:39.754 [nioEventLoopGroup-6-1] INFO  cc.litstar.comm.CommClient - Mapreduce client init sucessful
+2017-10-21 17:46:40.761 [nioEventLoopGroup-7-1] INFO  cc.litstar.comm.CommClient - Sending messages encountered problems
+2017-10-21 17:46:43.779 [nioEventLoopGroup-7-1] INFO  cc.litstar.comm.CommClient - Mapreduce client init sucessful
+2017-10-21 17:46:44.787 [nioEventLoopGroup-8-1] INFO  cc.litstar.comm.CommClient - Sending messages encountered problems
+2017-10-21 17:46:47.806 [nioEventLoopGroup-8-1] INFO  cc.litstar.comm.CommClient - Mapreduce client init sucessful
+2017-10-21 17:46:48.814 [nioEventLoopGroup-9-1] INFO  cc.litstar.comm.CommClient - Sending messages encountered problems
+2017-10-21 17:46:51.830 [nioEventLoopGroup-9-1] INFO  cc.litstar.comm.CommClient - Mapreduce client init sucessful
+2017-10-21 17:46:52.837 [nioEventLoopGroup-10-1] INFO  cc.litstar.comm.CommClient - Sending messages encountered problems
+2017-10-21 17:49:44.986 [main] INFO  cc.litstar.config.ConfReader - Starting reading information from config file
+2017-10-21 17:49:45.039 [main] INFO  cc.litstar.config.ConfReader - Reading config.json finished
+2017-10-21 17:49:45.328 [main] INFO  cc.litstar.comm.CommServer - Mapreduce server init sucessful
+2017-10-21 17:49:45.529 [nioEventLoopGroup-2-1] INFO  cc.litstar.comm.CommServer - Mapreduce server start sucessful
+2017-10-21 17:49:54.542 [main] INFO  cc.litstar.config.ConfReader - Starting reading information from config file
+2017-10-21 17:49:54.594 [main] INFO  cc.litstar.config.ConfReader - Reading config.json finished
+2017-10-21 17:49:54.659 [main] INFO  cc.litstar.core.Worker - Worker init fail, cannot found config in file.
+2017-10-21 17:50:06.778 [main] INFO  cc.litstar.config.ConfReader - Starting reading information from config file
+2017-10-21 17:50:06.832 [main] INFO  cc.litstar.config.ConfReader - Reading config.json finished
+2017-10-21 17:50:07.108 [main] INFO  cc.litstar.comm.CommServer - Mapreduce server init sucessful
+2017-10-21 17:50:07.298 [main] INFO  cc.litstar.core.Worker - Sending register information to master
+2017-10-21 17:50:07.298 [nioEventLoopGroup-2-1] INFO  cc.litstar.comm.CommServer - Mapreduce server start sucessful
+2017-10-21 17:50:07.309 [main] INFO  cc.litstar.comm.CommClient - Mapreduce client init sucessful
+2017-10-21 17:50:07.323 [nioEventLoopGroup-4-1] INFO  cc.litstar.comm.CommClient - Starting sending messages
+2017-10-21 17:50:07.370 [Thread-1] INFO  cc.litstar.core.Master - Receive register information from master.
+2017-10-21 17:50:22.490 [main] INFO  cc.litstar.config.ConfReader - Starting reading information from config file
+2017-10-21 17:50:22.555 [main] INFO  cc.litstar.config.ConfReader - Reading config.json finished
+2017-10-21 17:50:22.840 [main] INFO  cc.litstar.comm.CommServer - Mapreduce server init sucessful
+2017-10-21 17:50:23.037 [main] INFO  cc.litstar.core.Worker - Sending register information to master
+2017-10-21 17:50:23.038 [nioEventLoopGroup-2-1] INFO  cc.litstar.comm.CommServer - Mapreduce server start sucessful
+2017-10-21 17:50:23.052 [main] INFO  cc.litstar.comm.CommClient - Mapreduce client init sucessful
+2017-10-21 17:50:23.065 [nioEventLoopGroup-4-1] INFO  cc.litstar.comm.CommClient - Starting sending messages
+2017-10-21 17:50:23.086 [Thread-1] INFO  cc.litstar.core.Master - Receive register information from master.
+2017-10-21 17:50:35.715 [main] INFO  cc.litstar.config.ConfReader - Starting reading information from config file
+2017-10-21 17:50:35.771 [main] INFO  cc.litstar.config.ConfReader - Reading config.json finished
+2017-10-21 17:50:36.040 [main] INFO  cc.litstar.comm.CommServer - Mapreduce server init sucessful
+2017-10-21 17:50:36.236 [main] INFO  cc.litstar.core.Worker - Sending register information to master
+2017-10-21 17:50:36.236 [nioEventLoopGroup-2-1] INFO  cc.litstar.comm.CommServer - Mapreduce server start sucessful
+2017-10-21 17:50:36.247 [main] INFO  cc.litstar.comm.CommClient - Mapreduce client init sucessful
+2017-10-21 17:50:36.263 [nioEventLoopGroup-4-1] INFO  cc.litstar.comm.CommClient - Starting sending messages
+2017-10-21 17:50:36.284 [Thread-1] INFO  cc.litstar.core.Master - Receive register information from master.
+2017-10-21 17:50:59.513 [main] INFO  cc.litstar.config.ConfReader - Starting reading information from config file
+2017-10-21 17:50:59.563 [main] INFO  cc.litstar.config.ConfReader - Reading config.json finished
+2017-10-21 17:50:59.846 [main] INFO  cc.litstar.comm.CommServer - Mapreduce server init sucessful
+2017-10-21 17:51:00.037 [main] INFO  cc.litstar.core.Worker - Sending register information to master
+2017-10-21 17:51:00.038 [nioEventLoopGroup-2-1] INFO  cc.litstar.comm.CommServer - Mapreduce server start sucessful
+2017-10-21 17:51:00.051 [main] INFO  cc.litstar.comm.CommClient - Mapreduce client init sucessful
+2017-10-21 17:51:00.063 [nioEventLoopGroup-4-1] INFO  cc.litstar.comm.CommClient - Starting sending messages
+2017-10-21 17:51:00.082 [Thread-1] INFO  cc.litstar.core.Master - Receive register information from master.
+2017-10-21 17:51:14.974 [main] INFO  cc.litstar.config.ConfReader - Starting reading information from config file
+2017-10-21 17:51:15.024 [main] INFO  cc.litstar.config.ConfReader - Reading config.json finished
+2017-10-21 17:51:15.297 [main] INFO  cc.litstar.comm.CommServer - Mapreduce server init sucessful
+2017-10-21 17:51:15.491 [main] INFO  cc.litstar.core.Worker - Sending register information to master
+2017-10-21 17:51:15.492 [nioEventLoopGroup-2-1] INFO  cc.litstar.comm.CommServer - Mapreduce server start sucessful
+2017-10-21 17:51:15.503 [main] INFO  cc.litstar.comm.CommClient - Mapreduce client init sucessful
+2017-10-21 17:51:15.518 [nioEventLoopGroup-4-1] INFO  cc.litstar.comm.CommClient - Starting sending messages
+2017-10-21 17:51:15.538 [Thread-1] INFO  cc.litstar.core.Master - Receive register information from master.
+2017-10-21 17:51:15.538 [main] INFO  cc.litstar.core.Master - All worker node registered
+2017-10-21 17:52:02.872 [main] INFO  cc.litstar.config.ConfReader - Starting reading information from config file
+2017-10-21 17:52:02.924 [main] INFO  cc.litstar.config.ConfReader - Reading config.json finished
+2017-10-21 17:52:03.205 [main] INFO  cc.litstar.comm.CommServer - Mapreduce server init sucessful
+2017-10-21 17:52:03.397 [main] INFO  cc.litstar.core.Worker - Sending register information to master
+2017-10-21 17:52:03.398 [nioEventLoopGroup-2-1] INFO  cc.litstar.comm.CommServer - Mapreduce server start sucessful
+2017-10-21 17:52:03.409 [main] INFO  cc.litstar.comm.CommClient - Mapreduce client init sucessful
+2017-10-21 17:52:04.422 [nioEventLoopGroup-4-1] INFO  cc.litstar.comm.CommClient - Sending messages encountered problems
+2017-10-21 17:52:07.435 [nioEventLoopGroup-4-1] INFO  cc.litstar.comm.CommClient - Mapreduce client init sucessful
+2017-10-21 17:52:08.438 [nioEventLoopGroup-5-1] INFO  cc.litstar.comm.CommClient - Sending messages encountered problems
+2017-10-21 17:52:11.455 [nioEventLoopGroup-5-1] INFO  cc.litstar.comm.CommClient - Mapreduce client init sucessful
+2017-10-21 17:52:12.463 [nioEventLoopGroup-6-1] INFO  cc.litstar.comm.CommClient - Sending messages encountered problems
+2017-10-21 17:52:15.482 [nioEventLoopGroup-6-1] INFO  cc.litstar.comm.CommClient - Mapreduce client init sucessful
+2017-10-21 17:52:16.489 [nioEventLoopGroup-7-1] INFO  cc.litstar.comm.CommClient - Sending messages encountered problems
+2017-10-21 17:52:19.509 [nioEventLoopGroup-7-1] INFO  cc.litstar.comm.CommClient - Mapreduce client init sucessful
+2017-10-21 17:52:20.516 [nioEventLoopGroup-8-1] INFO  cc.litstar.comm.CommClient - Sending messages encountered problems
+2017-10-21 17:52:23.530 [nioEventLoopGroup-8-1] INFO  cc.litstar.comm.CommClient - Mapreduce client init sucessful
+2017-10-21 17:52:24.535 [nioEventLoopGroup-9-1] INFO  cc.litstar.comm.CommClient - Sending messages encountered problems
+2017-10-21 17:52:27.547 [nioEventLoopGroup-9-1] INFO  cc.litstar.comm.CommClient - Mapreduce client init sucessful
+2017-10-21 17:52:28.551 [nioEventLoopGroup-10-1] INFO  cc.litstar.comm.CommClient - Sending messages encountered problems
+2017-10-21 17:52:54.274 [main] INFO  cc.litstar.config.ConfReader - Starting reading information from config file
+2017-10-21 17:52:54.333 [main] INFO  cc.litstar.config.ConfReader - Reading config.json finished
+2017-10-21 17:52:54.612 [main] INFO  cc.litstar.comm.CommServer - Mapreduce server init sucessful
+2017-10-21 17:52:54.851 [main] INFO  cc.litstar.core.Worker - Sending register information to master
+2017-10-21 17:52:54.852 [nioEventLoopGroup-2-1] INFO  cc.litstar.comm.CommServer - Mapreduce server start sucessful
+2017-10-21 17:52:54.868 [main] INFO  cc.litstar.comm.CommClient - Mapreduce client init sucessful
+2017-10-21 17:52:55.888 [nioEventLoopGroup-4-1] INFO  cc.litstar.comm.CommClient - Sending messages encountered problems
+2017-10-21 17:52:58.912 [nioEventLoopGroup-4-1] INFO  cc.litstar.comm.CommClient - Mapreduce client init sucessful
+2017-10-21 17:52:59.920 [nioEventLoopGroup-5-1] INFO  cc.litstar.comm.CommClient - Sending messages encountered problems
+2017-10-21 17:53:02.941 [nioEventLoopGroup-5-1] INFO  cc.litstar.comm.CommClient - Mapreduce client init sucessful
+2017-10-21 17:53:03.948 [nioEventLoopGroup-6-1] INFO  cc.litstar.comm.CommClient - Sending messages encountered problems
+2017-10-21 17:53:06.969 [nioEventLoopGroup-6-1] INFO  cc.litstar.comm.CommClient - Mapreduce client init sucessful
+2017-10-21 17:53:07.976 [nioEventLoopGroup-7-1] INFO  cc.litstar.comm.CommClient - Sending messages encountered problems
+2017-10-21 17:53:10.995 [nioEventLoopGroup-7-1] INFO  cc.litstar.comm.CommClient - Mapreduce client init sucessful
+2017-10-21 17:53:12.015 [nioEventLoopGroup-8-1] INFO  cc.litstar.comm.CommClient - Sending messages encountered problems
+2017-10-21 17:53:15.033 [nioEventLoopGroup-8-1] INFO  cc.litstar.comm.CommClient - Mapreduce client init sucessful
+2017-10-21 17:53:16.042 [nioEventLoopGroup-9-1] INFO  cc.litstar.comm.CommClient - Sending messages encountered problems
+2017-10-21 17:53:19.060 [nioEventLoopGroup-9-1] INFO  cc.litstar.comm.CommClient - Mapreduce client init sucessful
+2017-10-21 17:53:20.066 [nioEventLoopGroup-10-1] INFO  cc.litstar.comm.CommClient - Sending messages encountered problems
+2017-10-21 17:53:23.085 [nioEventLoopGroup-10-1] INFO  cc.litstar.comm.CommClient - Mapreduce client init sucessful
+2017-10-21 17:53:24.092 [nioEventLoopGroup-11-1] INFO  cc.litstar.comm.CommClient - Sending messages encountered problems
+2017-10-21 17:53:27.110 [nioEventLoopGroup-11-1] INFO  cc.litstar.comm.CommClient - Mapreduce client init sucessful
+2017-10-21 17:53:28.117 [nioEventLoopGroup-12-1] INFO  cc.litstar.comm.CommClient - Sending messages encountered problems
+2017-10-21 17:53:31.136 [nioEventLoopGroup-12-1] INFO  cc.litstar.comm.CommClient - Mapreduce client init sucessful
+2017-10-21 17:53:32.143 [nioEventLoopGroup-13-1] INFO  cc.litstar.comm.CommClient - Sending messages encountered problems
+2017-10-21 19:59:24.916 [main] INFO  cc.litstar.config.ConfReader - Starting reading information from config file
+2017-10-21 19:59:24.979 [main] INFO  cc.litstar.config.ConfReader - Reading config.json finished
+2017-10-21 19:59:25.267 [main] INFO  cc.litstar.comm.CommServer - Mapreduce server init sucessful
+2017-10-21 19:59:25.466 [nioEventLoopGroup-2-1] INFO  cc.litstar.comm.CommServer - Mapreduce server start sucessful
+2017-10-21 19:59:30.235 [main] INFO  cc.litstar.config.ConfReader - Starting reading information from config file
+2017-10-21 19:59:30.293 [main] INFO  cc.litstar.config.ConfReader - Reading config.json finished
+2017-10-21 19:59:30.590 [main] INFO  cc.litstar.comm.CommServer - Mapreduce server init sucessful
+2017-10-21 19:59:30.790 [main] INFO  cc.litstar.core.Worker - Sending register information to master
+2017-10-21 19:59:30.791 [nioEventLoopGroup-2-1] INFO  cc.litstar.comm.CommServer - Mapreduce server start sucessful
+2017-10-21 19:59:30.803 [main] INFO  cc.litstar.comm.CommClient - Mapreduce client init sucessful
+2017-10-21 19:59:30.818 [nioEventLoopGroup-4-1] INFO  cc.litstar.comm.CommClient - Starting sending messages
+2017-10-21 19:59:30.870 [Thread-1] INFO  cc.litstar.core.Master - Receive register information from master.
+2017-10-21 19:59:35.779 [main] INFO  cc.litstar.config.ConfReader - Starting reading information from config file
+2017-10-21 19:59:35.852 [main] INFO  cc.litstar.config.ConfReader - Reading config.json finished
+2017-10-21 19:59:36.149 [main] INFO  cc.litstar.comm.CommServer - Mapreduce server init sucessful
+2017-10-21 19:59:36.349 [main] INFO  cc.litstar.core.Worker - Sending register information to master
+2017-10-21 19:59:36.350 [nioEventLoopGroup-2-1] INFO  cc.litstar.comm.CommServer - Mapreduce server start sucessful
+2017-10-21 19:59:36.362 [main] INFO  cc.litstar.comm.CommClient - Mapreduce client init sucessful
+2017-10-21 19:59:36.379 [nioEventLoopGroup-4-1] INFO  cc.litstar.comm.CommClient - Starting sending messages
+2017-10-21 19:59:36.401 [Thread-1] INFO  cc.litstar.core.Master - Receive register information from master.
+2017-10-21 19:59:44.552 [main] INFO  cc.litstar.config.ConfReader - Starting reading information from config file
+2017-10-21 19:59:44.605 [main] INFO  cc.litstar.config.ConfReader - Reading config.json finished
+2017-10-21 19:59:44.895 [main] INFO  cc.litstar.comm.CommServer - Mapreduce server init sucessful
+2017-10-21 19:59:45.116 [main] INFO  cc.litstar.core.Worker - Sending register information to master
+2017-10-21 19:59:45.117 [nioEventLoopGroup-2-1] INFO  cc.litstar.comm.CommServer - Mapreduce server start sucessful
+2017-10-21 19:59:45.130 [main] INFO  cc.litstar.comm.CommClient - Mapreduce client init sucessful
+2017-10-21 19:59:45.144 [nioEventLoopGroup-4-1] INFO  cc.litstar.comm.CommClient - Starting sending messages
+2017-10-21 19:59:45.166 [Thread-1] INFO  cc.litstar.core.Master - Receive register information from master.
+2017-10-21 19:59:49.368 [main] INFO  cc.litstar.config.ConfReader - Starting reading information from config file
+2017-10-21 19:59:49.425 [main] INFO  cc.litstar.config.ConfReader - Reading config.json finished
+2017-10-21 19:59:49.879 [main] INFO  cc.litstar.comm.CommServer - Mapreduce server init sucessful
+2017-10-21 19:59:50.114 [main] INFO  cc.litstar.core.Worker - Sending register information to master
+2017-10-21 19:59:50.115 [nioEventLoopGroup-2-1] INFO  cc.litstar.comm.CommServer - Mapreduce server start sucessful
+2017-10-21 19:59:50.125 [main] INFO  cc.litstar.comm.CommClient - Mapreduce client init sucessful
+2017-10-21 19:59:50.141 [nioEventLoopGroup-4-1] INFO  cc.litstar.comm.CommClient - Starting sending messages
+2017-10-21 19:59:50.162 [Thread-1] INFO  cc.litstar.core.Master - Receive register information from master.
+2017-10-21 19:59:55.113 [main] INFO  cc.litstar.config.ConfReader - Starting reading information from config file
+2017-10-21 19:59:55.194 [main] INFO  cc.litstar.config.ConfReader - Reading config.json finished
+2017-10-21 19:59:55.468 [main] INFO  cc.litstar.comm.CommServer - Mapreduce server init sucessful
+2017-10-21 19:59:55.678 [main] INFO  cc.litstar.core.Worker - Sending register information to master
+2017-10-21 19:59:55.678 [nioEventLoopGroup-2-1] INFO  cc.litstar.comm.CommServer - Mapreduce server start sucessful
+2017-10-21 19:59:55.690 [main] INFO  cc.litstar.comm.CommClient - Mapreduce client init sucessful
+2017-10-21 19:59:55.704 [nioEventLoopGroup-4-1] INFO  cc.litstar.comm.CommClient - Starting sending messages
+2017-10-21 19:59:55.724 [Thread-1] INFO  cc.litstar.core.Master - Receive register information from master.
+2017-10-21 19:59:55.725 [main] INFO  cc.litstar.core.Master - All worker node registered
+2017-10-21 20:05:36.138 [main] INFO  cc.litstar.config.ConfReader - Starting reading information from config file
+2017-10-21 20:05:36.197 [main] INFO  cc.litstar.config.ConfReader - Reading config.json finished
+2017-10-21 20:05:36.479 [main] INFO  cc.litstar.comm.CommServer - Mapreduce server init sucessful
+2017-10-21 20:05:36.676 [nioEventLoopGroup-2-1] INFO  cc.litstar.comm.CommServer - Mapreduce server start sucessful
+2017-10-21 20:05:40.988 [main] INFO  cc.litstar.config.ConfReader - Starting reading information from config file
+2017-10-21 20:05:41.046 [main] INFO  cc.litstar.config.ConfReader - Reading config.json finished
+2017-10-21 20:05:41.325 [main] INFO  cc.litstar.comm.CommServer - Mapreduce server init sucessful
+2017-10-21 20:05:41.514 [main] INFO  cc.litstar.core.Worker - Sending register information to master
+2017-10-21 20:05:41.514 [nioEventLoopGroup-2-1] INFO  cc.litstar.comm.CommServer - Mapreduce server start sucessful
+2017-10-21 20:05:41.524 [main] INFO  cc.litstar.comm.CommClient - Mapreduce client init sucessful
+2017-10-21 20:05:41.538 [nioEventLoopGroup-4-1] INFO  cc.litstar.comm.CommClient - Starting sending messages
+2017-10-21 20:05:41.578 [Thread-1] INFO  cc.litstar.core.Master - Receive register information from master.
+2017-10-21 20:05:46.753 [main] INFO  cc.litstar.config.ConfReader - Starting reading information from config file
+2017-10-21 20:05:46.812 [main] INFO  cc.litstar.config.ConfReader - Reading config.json finished
+2017-10-21 20:05:47.101 [main] INFO  cc.litstar.comm.CommServer - Mapreduce server init sucessful
+2017-10-21 20:05:47.292 [main] INFO  cc.litstar.core.Worker - Sending register information to master
+2017-10-21 20:05:47.293 [nioEventLoopGroup-2-1] INFO  cc.litstar.comm.CommServer - Mapreduce server start sucessful
+2017-10-21 20:05:47.303 [main] INFO  cc.litstar.comm.CommClient - Mapreduce client init sucessful
+2017-10-21 20:05:47.316 [nioEventLoopGroup-4-1] INFO  cc.litstar.comm.CommClient - Starting sending messages
+2017-10-21 20:05:47.336 [Thread-1] INFO  cc.litstar.core.Master - Receive register information from master.
+2017-10-21 20:05:53.740 [main] INFO  cc.litstar.config.ConfReader - Starting reading information from config file
+2017-10-21 20:05:53.804 [main] INFO  cc.litstar.config.ConfReader - Reading config.json finished
+2017-10-21 20:05:54.081 [main] INFO  cc.litstar.comm.CommServer - Mapreduce server init sucessful
+2017-10-21 20:05:54.268 [main] INFO  cc.litstar.core.Worker - Sending register information to master
+2017-10-21 20:05:54.268 [nioEventLoopGroup-2-1] INFO  cc.litstar.comm.CommServer - Mapreduce server start sucessful
+2017-10-21 20:05:54.280 [main] INFO  cc.litstar.comm.CommClient - Mapreduce client init sucessful
+2017-10-21 20:05:54.292 [nioEventLoopGroup-4-1] INFO  cc.litstar.comm.CommClient - Starting sending messages
+2017-10-21 20:05:54.315 [Thread-1] INFO  cc.litstar.core.Master - Receive register information from master.
+2017-10-21 20:05:59.073 [main] INFO  cc.litstar.config.ConfReader - Starting reading information from config file
+2017-10-21 20:05:59.128 [main] INFO  cc.litstar.config.ConfReader - Reading config.json finished
+2017-10-21 20:05:59.409 [main] INFO  cc.litstar.comm.CommServer - Mapreduce server init sucessful
+2017-10-21 20:05:59.608 [main] INFO  cc.litstar.core.Worker - Sending register information to master
+2017-10-21 20:05:59.609 [nioEventLoopGroup-2-1] INFO  cc.litstar.comm.CommServer - Mapreduce server start sucessful
+2017-10-21 20:05:59.620 [main] INFO  cc.litstar.comm.CommClient - Mapreduce client init sucessful
+2017-10-21 20:05:59.633 [nioEventLoopGroup-4-1] INFO  cc.litstar.comm.CommClient - Starting sending messages
+2017-10-21 20:05:59.657 [Thread-1] INFO  cc.litstar.core.Master - Receive register information from master.
+2017-10-21 20:06:04.599 [main] INFO  cc.litstar.config.ConfReader - Starting reading information from config file
+2017-10-21 20:06:04.665 [main] INFO  cc.litstar.config.ConfReader - Reading config.json finished
+2017-10-21 20:06:04.975 [main] INFO  cc.litstar.comm.CommServer - Mapreduce server init sucessful
+2017-10-21 20:06:05.175 [main] INFO  cc.litstar.core.Worker - Sending register information to master
+2017-10-21 20:06:05.176 [nioEventLoopGroup-2-1] INFO  cc.litstar.comm.CommServer - Mapreduce server start sucessful
+2017-10-21 20:06:05.188 [main] INFO  cc.litstar.comm.CommClient - Mapreduce client init sucessful
+2017-10-21 20:06:05.205 [nioEventLoopGroup-4-1] INFO  cc.litstar.comm.CommClient - Starting sending messages
+2017-10-21 20:06:05.226 [Thread-1] INFO  cc.litstar.core.Master - Receive register information from master.
+2017-10-21 20:06:05.226 [main] INFO  cc.litstar.core.Master - All worker node registered
+2017-10-21 20:06:36.677 [main] INFO  cc.litstar.core.Master - Split task done

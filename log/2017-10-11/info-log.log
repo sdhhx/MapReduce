@@ -1,0 +1,68 @@
+2017-10-11 20:05:11.292 [Thread-1] INFO  cc.litstar.comm.CommServer - Mapreduce server init sucessful
+2017-10-11 20:05:11.444 [nioEventLoopGroup-2-1] INFO  cc.litstar.comm.CommServer - Mapreduce server start sucessful
+2017-10-11 20:05:45.166 [Thread-1] INFO  cc.litstar.comm.CommServer - Mapreduce server init sucessful
+2017-10-11 20:05:45.342 [nioEventLoopGroup-2-1] INFO  cc.litstar.comm.CommServer - Mapreduce server start sucessful
+2017-10-11 20:05:55.418 [Thread-1] INFO  cc.litstar.comm.CommServer - Mapreduce server init sucessful
+2017-10-11 20:05:55.568 [nioEventLoopGroup-2-1] INFO  cc.litstar.comm.CommServer - Mapreduce server start sucessful
+2017-10-11 20:07:02.799 [Thread-1] INFO  cc.litstar.comm.CommServer - Mapreduce server init sucessful
+2017-10-11 20:07:02.946 [nioEventLoopGroup-2-1] INFO  cc.litstar.comm.CommServer - Mapreduce server start sucessful
+2017-10-11 20:07:51.876 [Thread-1] INFO  cc.litstar.comm.CommServer - Mapreduce server init sucessful
+2017-10-11 20:07:52.022 [nioEventLoopGroup-2-1] INFO  cc.litstar.comm.CommServer - Mapreduce server start sucessful
+2017-10-11 20:07:58.838 [Thread-1] INFO  cc.litstar.comm.CommClient - Mapreduce client init sucessful
+2017-10-11 20:07:58.998 [nioEventLoopGroup-2-1] INFO  cc.litstar.comm.CommClient - Starting sending messages
+2017-10-11 20:09:01.105 [Thread-1] INFO  cc.litstar.comm.CommServer - Mapreduce server init sucessful
+2017-10-11 20:09:01.279 [nioEventLoopGroup-2-1] INFO  cc.litstar.comm.CommServer - Mapreduce server start sucessful
+2017-10-11 20:09:36.855 [main] INFO  cc.litstar.comm.CommClient - Mapreduce client init sucessful
+2017-10-11 20:09:37.012 [nioEventLoopGroup-2-1] INFO  cc.litstar.comm.CommClient - Starting sending messages
+2017-10-11 20:12:41.813 [Thread-1] INFO  cc.litstar.comm.CommServer - Mapreduce server init sucessful
+2017-10-11 20:12:41.978 [nioEventLoopGroup-2-1] INFO  cc.litstar.comm.CommServer - Mapreduce server start sucessful
+2017-10-11 20:12:52.151 [main] INFO  cc.litstar.comm.CommClient - Mapreduce client init sucessful
+2017-10-11 20:12:52.309 [nioEventLoopGroup-2-1] INFO  cc.litstar.comm.CommClient - Starting sending messages
+2017-10-11 20:14:55.694 [Thread-1] INFO  cc.litstar.comm.CommServer - Mapreduce server init sucessful
+2017-10-11 20:14:55.843 [nioEventLoopGroup-2-1] INFO  cc.litstar.comm.CommServer - Mapreduce server start sucessful
+2017-10-11 20:15:03.487 [main] INFO  cc.litstar.comm.CommClient - Mapreduce client init sucessful
+2017-10-11 20:15:03.645 [nioEventLoopGroup-2-1] INFO  cc.litstar.comm.CommClient - Starting sending messages
+2017-10-11 20:17:26.608 [main] INFO  cc.litstar.comm.CommClient - Mapreduce client init sucessful
+2017-10-11 20:17:27.765 [nioEventLoopGroup-2-1] INFO  cc.litstar.comm.CommClient - Sending messages encountered problems
+2017-10-11 20:17:30.782 [nioEventLoopGroup-2-1] INFO  cc.litstar.comm.CommClient - Mapreduce client init sucessful
+2017-10-11 20:17:31.787 [nioEventLoopGroup-3-1] INFO  cc.litstar.comm.CommClient - Sending messages encountered problems
+2017-10-11 20:17:34.806 [nioEventLoopGroup-3-1] INFO  cc.litstar.comm.CommClient - Mapreduce client init sucessful
+2017-10-11 20:17:35.815 [nioEventLoopGroup-4-1] INFO  cc.litstar.comm.CommClient - Sending messages encountered problems
+2017-10-11 20:17:38.819 [nioEventLoopGroup-4-1] INFO  cc.litstar.comm.CommClient - Mapreduce client init sucessful
+2017-10-11 20:17:39.822 [nioEventLoopGroup-5-1] INFO  cc.litstar.comm.CommClient - Sending messages encountered problems
+2017-10-11 20:17:42.827 [nioEventLoopGroup-5-1] INFO  cc.litstar.comm.CommClient - Mapreduce client init sucessful
+2017-10-11 20:17:43.830 [nioEventLoopGroup-6-1] INFO  cc.litstar.comm.CommClient - Sending messages encountered problems
+2017-10-11 20:17:45.740 [Thread-1] INFO  cc.litstar.comm.CommServer - Mapreduce server init sucessful
+2017-10-11 20:17:45.886 [nioEventLoopGroup-2-1] INFO  cc.litstar.comm.CommServer - Mapreduce server start sucessful
+2017-10-11 20:17:46.849 [nioEventLoopGroup-6-1] INFO  cc.litstar.comm.CommClient - Mapreduce client init sucessful
+2017-10-11 20:17:46.855 [nioEventLoopGroup-7-1] INFO  cc.litstar.comm.CommClient - Starting sending messages
+2017-10-11 20:20:27.101 [main] INFO  cc.litstar.comm.CommClient - Mapreduce client init sucessful
+2017-10-11 20:20:28.260 [nioEventLoopGroup-2-1] INFO  cc.litstar.comm.CommClient - Sending messages encountered problems
+2017-10-11 20:20:31.268 [nioEventLoopGroup-2-1] INFO  cc.litstar.comm.CommClient - Mapreduce client init sucessful
+2017-10-11 20:20:32.286 [nioEventLoopGroup-3-1] INFO  cc.litstar.comm.CommClient - Sending messages encountered problems
+2017-10-11 20:20:35.291 [nioEventLoopGroup-3-1] INFO  cc.litstar.comm.CommClient - Mapreduce client init sucessful
+2017-10-11 20:20:36.292 [nioEventLoopGroup-4-1] INFO  cc.litstar.comm.CommClient - Sending messages encountered problems
+2017-10-11 20:20:37.948 [Thread-1] INFO  cc.litstar.comm.CommServer - Mapreduce server init sucessful
+2017-10-11 20:20:38.099 [nioEventLoopGroup-2-1] INFO  cc.litstar.comm.CommServer - Mapreduce server start sucessful
+2017-10-11 20:20:39.301 [nioEventLoopGroup-4-1] INFO  cc.litstar.comm.CommClient - Mapreduce client init sucessful
+2017-10-11 20:20:39.303 [nioEventLoopGroup-5-1] INFO  cc.litstar.comm.CommClient - Starting sending messages
+2017-10-11 20:22:26.329 [main] INFO  cc.litstar.comm.CommClient - Mapreduce client init sucessful
+2017-10-11 20:22:27.485 [nioEventLoopGroup-2-1] INFO  cc.litstar.comm.CommClient - Sending messages encountered problems
+2017-10-11 20:22:30.499 [nioEventLoopGroup-2-1] INFO  cc.litstar.comm.CommClient - Mapreduce client init sucessful
+2017-10-11 20:22:31.504 [nioEventLoopGroup-3-1] INFO  cc.litstar.comm.CommClient - Sending messages encountered problems
+2017-10-11 20:22:34.513 [nioEventLoopGroup-3-1] INFO  cc.litstar.comm.CommClient - Mapreduce client init sucessful
+2017-10-11 20:22:35.516 [nioEventLoopGroup-4-1] INFO  cc.litstar.comm.CommClient - Sending messages encountered problems
+2017-10-11 20:22:36.188 [Thread-1] INFO  cc.litstar.comm.CommServer - Mapreduce server init sucessful
+2017-10-11 20:22:36.358 [nioEventLoopGroup-2-1] INFO  cc.litstar.comm.CommServer - Mapreduce server start sucessful
+2017-10-11 20:22:38.527 [nioEventLoopGroup-4-1] INFO  cc.litstar.comm.CommClient - Mapreduce client init sucessful
+2017-10-11 20:22:38.530 [nioEventLoopGroup-5-1] INFO  cc.litstar.comm.CommClient - Starting sending messages
+2017-10-11 20:24:01.828 [main] INFO  cc.litstar.comm.CommClient - Mapreduce client init sucessful
+2017-10-11 20:24:02.983 [nioEventLoopGroup-2-1] INFO  cc.litstar.comm.CommClient - Sending messages encountered problems
+2017-10-11 20:24:06.003 [nioEventLoopGroup-2-1] INFO  cc.litstar.comm.CommClient - Mapreduce client init sucessful
+2017-10-11 20:24:07.008 [nioEventLoopGroup-3-1] INFO  cc.litstar.comm.CommClient - Sending messages encountered problems
+2017-10-11 20:24:10.017 [nioEventLoopGroup-3-1] INFO  cc.litstar.comm.CommClient - Mapreduce client init sucessful
+2017-10-11 20:24:11.020 [nioEventLoopGroup-4-1] INFO  cc.litstar.comm.CommClient - Sending messages encountered problems
+2017-10-11 20:24:13.465 [Thread-1] INFO  cc.litstar.comm.CommServer - Mapreduce server init sucessful
+2017-10-11 20:24:13.612 [nioEventLoopGroup-2-1] INFO  cc.litstar.comm.CommServer - Mapreduce server start sucessful
+2017-10-11 20:24:14.040 [nioEventLoopGroup-4-1] INFO  cc.litstar.comm.CommClient - Mapreduce client init sucessful
+2017-10-11 20:24:14.044 [nioEventLoopGroup-5-1] INFO  cc.litstar.comm.CommClient - Starting sending messages

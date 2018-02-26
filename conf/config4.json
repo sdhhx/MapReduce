@@ -1,0 +1,44 @@
+{
+	"Mode" : "Distributed",
+	"Type" : "Worker",
+	"LocalIP" : "127.0.0.1",
+	"LocalPort" : 5004,
+	"Master" : {
+		"ipAddress": "127.0.0.1",
+		"port": 5000,
+		"username": "root",
+		"password": "123456789"
+	},
+	"WorkerList" : [
+		{
+			"ipAddress": "127.0.0.1",
+			"port": 5001,
+			"username": "root",
+			"password": "123456789"
+		},
+		{
+			"ipAddress": "127.0.0.1",
+			"port": 5002,
+			"username": "root",
+			"password": "123456789"
+		},
+		{
+			"ipAddress": "127.0.0.1",
+			"port": 5003,
+			"username": "root",
+			"password": "123456789"
+		},
+		{
+			"ipAddress": "127.0.0.1",
+			"port": 5004,
+			"username": "root",
+			"password": "123456789"
+		},
+		{
+			"ipAddress": "127.0.0.1",
+			"port": 5005,
+			"username": "root",
+			"password": "123456789"
+		}
+	]
+}

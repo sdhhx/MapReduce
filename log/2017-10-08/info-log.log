@@ -1,0 +1,33 @@
+2017-10-08 15:36:54.561 [main] INFO  cc.litstar.core.MapReduce - Split book.txt
+2017-10-08 15:36:54.665 [main] INFO  cc.litstar.core.MapReduce - DoMap: read split mrtmp.book.txt-095831
+2017-10-08 15:36:54.786 [main] INFO  cc.litstar.core.MapReduce - DoMap: read split mrtmp.book.txt-193921
+2017-10-08 15:36:54.852 [main] INFO  cc.litstar.core.MapReduce - DoMap: read split mrtmp.book.txt-295121
+2017-10-08 15:36:54.965 [main] INFO  cc.litstar.core.MapReduce - DoMap: read split mrtmp.book.txt-394995
+2017-10-08 15:36:55.038 [main] INFO  cc.litstar.core.MapReduce - DoMap: read split mrtmp.book.txt-494522
+2017-10-08 15:36:55.087 [main] INFO  cc.litstar.core.MapReduce - DoMap: read split mrtmp.book.txt-595186
+2017-10-08 15:36:55.138 [main] INFO  cc.litstar.core.MapReduce - DoMap: read split mrtmp.book.txt-694483
+2017-10-08 15:36:55.198 [main] INFO  cc.litstar.core.MapReduce - DoMap: read split mrtmp.book.txt-795444
+2017-10-08 15:36:55.246 [main] INFO  cc.litstar.core.MapReduce - DoMap: read split mrtmp.book.txt-894409
+2017-10-08 15:36:55.474 [main] INFO  cc.litstar.core.MapReduce - DoMap: read split mrtmp.book.txt-989161
+2017-10-08 15:38:03.786 [main] INFO  cc.litstar.core.MapReduce - Split book.txt
+2017-10-08 15:38:03.895 [main] INFO  cc.litstar.core.MapReduce - DoMap: read split mrtmp.book.txt-095831
+2017-10-08 15:38:03.976 [main] INFO  cc.litstar.core.MapReduce - DoMap: read split mrtmp.book.txt-193921
+2017-10-08 15:38:04.036 [main] INFO  cc.litstar.core.MapReduce - DoMap: read split mrtmp.book.txt-295121
+2017-10-08 15:38:04.106 [main] INFO  cc.litstar.core.MapReduce - DoMap: read split mrtmp.book.txt-394995
+2017-10-08 15:38:04.140 [main] INFO  cc.litstar.core.MapReduce - DoMap: read split mrtmp.book.txt-494522
+2017-10-08 15:38:04.181 [main] INFO  cc.litstar.core.MapReduce - DoMap: read split mrtmp.book.txt-595186
+2017-10-08 15:38:04.233 [main] INFO  cc.litstar.core.MapReduce - DoMap: read split mrtmp.book.txt-694483
+2017-10-08 15:38:04.280 [main] INFO  cc.litstar.core.MapReduce - DoMap: read split mrtmp.book.txt-795444
+2017-10-08 15:38:04.337 [main] INFO  cc.litstar.core.MapReduce - DoMap: read split mrtmp.book.txt-894409
+2017-10-08 15:38:04.378 [main] INFO  cc.litstar.core.MapReduce - DoMap: read split mrtmp.book.txt-989161
+2017-10-08 15:40:29.350 [main] INFO  cc.litstar.core.MapReduce - Split book.txt
+2017-10-08 15:40:29.468 [main] INFO  cc.litstar.core.MapReduce - DoMap: read split mrtmp.book.txt-0:95831
+2017-10-08 15:40:29.543 [main] INFO  cc.litstar.core.MapReduce - DoMap: read split mrtmp.book.txt-1:93921
+2017-10-08 15:40:29.604 [main] INFO  cc.litstar.core.MapReduce - DoMap: read split mrtmp.book.txt-2:95121
+2017-10-08 15:40:29.672 [main] INFO  cc.litstar.core.MapReduce - DoMap: read split mrtmp.book.txt-3:94995
+2017-10-08 15:40:29.711 [main] INFO  cc.litstar.core.MapReduce - DoMap: read split mrtmp.book.txt-4:94522
+2017-10-08 15:40:29.751 [main] INFO  cc.litstar.core.MapReduce - DoMap: read split mrtmp.book.txt-5:95186
+2017-10-08 15:40:29.801 [main] INFO  cc.litstar.core.MapReduce - DoMap: read split mrtmp.book.txt-6:94483
+2017-10-08 15:40:29.853 [main] INFO  cc.litstar.core.MapReduce - DoMap: read split mrtmp.book.txt-7:95444
+2017-10-08 15:40:29.912 [main] INFO  cc.litstar.core.MapReduce - DoMap: read split mrtmp.book.txt-8:94409
+2017-10-08 15:40:29.959 [main] INFO  cc.litstar.core.MapReduce - DoMap: read split mrtmp.book.txt-9:89161

@@ -1,0 +1,1006 @@
+2017-10-11 20:05:11.122 [Thread-1] DEBUG io.netty.util.internal.logging.InternalLoggerFactory - Using SLF4J as the default logging framework
+2017-10-11 20:05:11.127 [Thread-1] DEBUG io.netty.channel.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 8
+2017-10-11 20:05:11.166 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent - Platform: Windows
+2017-10-11 20:05:11.167 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent0 - -Dio.netty.noUnsafe: false
+2017-10-11 20:05:11.168 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent0 - Java version: 8
+2017-10-11 20:05:11.169 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+2017-10-11 20:05:11.169 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+2017-10-11 20:05:11.170 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+2017-10-11 20:05:11.170 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent0 - direct buffer constructor: available
+2017-10-11 20:05:11.171 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: available, true
+2017-10-11 20:05:11.171 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2017-10-11 20:05:11.171 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): available
+2017-10-11 20:05:11.171 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent - sun.misc.Unsafe: available
+2017-10-11 20:05:11.171 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.tmpdir: C:\Users\HEHAOX~1\AppData\Local\Temp (java.io.tmpdir)
+2017-10-11 20:05:11.171 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2017-10-11 20:05:11.173 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+2017-10-11 20:05:11.173 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.maxDirectMemory: 1883242496 bytes
+2017-10-11 20:05:11.173 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2017-10-11 20:05:11.175 [Thread-1] DEBUG io.netty.util.internal.CleanerJava6 - java.nio.ByteBuffer.cleaner(): available
+2017-10-11 20:05:11.188 [Thread-1] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+2017-10-11 20:05:11.188 [Thread-1] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+2017-10-11 20:05:11.196 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+2017-10-11 20:05:11.303 [Thread-1] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.processId: 12600 (auto-detected)
+2017-10-11 20:05:11.307 [Thread-1] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv4Stack: false
+2017-10-11 20:05:11.307 [Thread-1] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv6Addresses: false
+2017-10-11 20:05:11.343 [Thread-1] DEBUG io.netty.util.NetUtil - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2017-10-11 20:05:11.343 [Thread-1] DEBUG io.netty.util.NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2017-10-11 20:05:11.387 [Thread-1] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.machineId: 00:00:00:00:00:00:00:e0 (auto-detected)
+2017-10-11 20:05:11.391 [Thread-1] DEBUG io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2017-10-11 20:05:11.391 [Thread-1] DEBUG io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2017-10-11 20:05:11.400 [Thread-1] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+2017-10-11 20:05:11.400 [Thread-1] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.maxRecords: 4
+2017-10-11 20:05:11.401 [Thread-1] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.maxSampledRecords: 40
+2017-10-11 20:05:11.422 [Thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 8
+2017-10-11 20:05:11.423 [Thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 8
+2017-10-11 20:05:11.423 [Thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+2017-10-11 20:05:11.423 [Thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 11
+2017-10-11 20:05:11.423 [Thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 16777216
+2017-10-11 20:05:11.423 [Thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.tinyCacheSize: 512
+2017-10-11 20:05:11.423 [Thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+2017-10-11 20:05:11.423 [Thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+2017-10-11 20:05:11.423 [Thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2017-10-11 20:05:11.423 [Thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+2017-10-11 20:05:11.423 [Thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: true
+2017-10-11 20:05:11.431 [Thread-1] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: pooled
+2017-10-11 20:05:11.432 [Thread-1] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 65536
+2017-10-11 20:05:11.432 [Thread-1] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2017-10-11 20:05:44.944 [Thread-1] DEBUG io.netty.util.internal.logging.InternalLoggerFactory - Using SLF4J as the default logging framework
+2017-10-11 20:05:44.953 [Thread-1] DEBUG io.netty.channel.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 8
+2017-10-11 20:05:45.007 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent - Platform: Windows
+2017-10-11 20:05:45.009 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent0 - -Dio.netty.noUnsafe: false
+2017-10-11 20:05:45.009 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent0 - Java version: 8
+2017-10-11 20:05:45.011 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+2017-10-11 20:05:45.011 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+2017-10-11 20:05:45.012 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+2017-10-11 20:05:45.013 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent0 - direct buffer constructor: available
+2017-10-11 20:05:45.013 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: available, true
+2017-10-11 20:05:45.013 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2017-10-11 20:05:45.013 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): available
+2017-10-11 20:05:45.013 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent - sun.misc.Unsafe: available
+2017-10-11 20:05:45.014 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.tmpdir: C:\Users\HEHAOX~1\AppData\Local\Temp (java.io.tmpdir)
+2017-10-11 20:05:45.015 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2017-10-11 20:05:45.018 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+2017-10-11 20:05:45.018 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.maxDirectMemory: 1883242496 bytes
+2017-10-11 20:05:45.019 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2017-10-11 20:05:45.020 [Thread-1] DEBUG io.netty.util.internal.CleanerJava6 - java.nio.ByteBuffer.cleaner(): available
+2017-10-11 20:05:45.035 [Thread-1] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+2017-10-11 20:05:45.035 [Thread-1] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+2017-10-11 20:05:45.043 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+2017-10-11 20:05:45.177 [Thread-1] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.processId: 12484 (auto-detected)
+2017-10-11 20:05:45.179 [Thread-1] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv4Stack: false
+2017-10-11 20:05:45.179 [Thread-1] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv6Addresses: false
+2017-10-11 20:05:45.220 [Thread-1] DEBUG io.netty.util.NetUtil - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2017-10-11 20:05:45.220 [Thread-1] DEBUG io.netty.util.NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2017-10-11 20:05:45.272 [Thread-1] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.machineId: 00:00:00:00:00:00:00:e0 (auto-detected)
+2017-10-11 20:05:45.278 [Thread-1] DEBUG io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2017-10-11 20:05:45.278 [Thread-1] DEBUG io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2017-10-11 20:05:45.287 [Thread-1] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+2017-10-11 20:05:45.287 [Thread-1] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.maxRecords: 4
+2017-10-11 20:05:45.288 [Thread-1] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.maxSampledRecords: 40
+2017-10-11 20:05:45.311 [Thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 8
+2017-10-11 20:05:45.311 [Thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 8
+2017-10-11 20:05:45.311 [Thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+2017-10-11 20:05:45.311 [Thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 11
+2017-10-11 20:05:45.311 [Thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 16777216
+2017-10-11 20:05:45.311 [Thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.tinyCacheSize: 512
+2017-10-11 20:05:45.311 [Thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+2017-10-11 20:05:45.311 [Thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+2017-10-11 20:05:45.311 [Thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2017-10-11 20:05:45.312 [Thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+2017-10-11 20:05:45.312 [Thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: true
+2017-10-11 20:05:45.322 [Thread-1] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: pooled
+2017-10-11 20:05:45.323 [Thread-1] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 65536
+2017-10-11 20:05:45.323 [Thread-1] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2017-10-11 20:05:55.242 [Thread-1] DEBUG io.netty.util.internal.logging.InternalLoggerFactory - Using SLF4J as the default logging framework
+2017-10-11 20:05:55.247 [Thread-1] DEBUG io.netty.channel.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 8
+2017-10-11 20:05:55.292 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent - Platform: Windows
+2017-10-11 20:05:55.293 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent0 - -Dio.netty.noUnsafe: false
+2017-10-11 20:05:55.294 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent0 - Java version: 8
+2017-10-11 20:05:55.295 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+2017-10-11 20:05:55.296 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+2017-10-11 20:05:55.297 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+2017-10-11 20:05:55.298 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent0 - direct buffer constructor: available
+2017-10-11 20:05:55.299 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: available, true
+2017-10-11 20:05:55.300 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2017-10-11 20:05:55.300 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): available
+2017-10-11 20:05:55.300 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent - sun.misc.Unsafe: available
+2017-10-11 20:05:55.301 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.tmpdir: C:\Users\HEHAOX~1\AppData\Local\Temp (java.io.tmpdir)
+2017-10-11 20:05:55.301 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2017-10-11 20:05:55.303 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+2017-10-11 20:05:55.303 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.maxDirectMemory: 1883242496 bytes
+2017-10-11 20:05:55.303 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2017-10-11 20:05:55.304 [Thread-1] DEBUG io.netty.util.internal.CleanerJava6 - java.nio.ByteBuffer.cleaner(): available
+2017-10-11 20:05:55.317 [Thread-1] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+2017-10-11 20:05:55.317 [Thread-1] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+2017-10-11 20:05:55.324 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+2017-10-11 20:05:55.428 [Thread-1] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.processId: 4440 (auto-detected)
+2017-10-11 20:05:55.430 [Thread-1] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv4Stack: false
+2017-10-11 20:05:55.430 [Thread-1] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv6Addresses: false
+2017-10-11 20:05:55.464 [Thread-1] DEBUG io.netty.util.NetUtil - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2017-10-11 20:05:55.464 [Thread-1] DEBUG io.netty.util.NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2017-10-11 20:05:55.511 [Thread-1] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.machineId: 00:00:00:00:00:00:00:e0 (auto-detected)
+2017-10-11 20:05:55.516 [Thread-1] DEBUG io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2017-10-11 20:05:55.517 [Thread-1] DEBUG io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2017-10-11 20:05:55.522 [Thread-1] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+2017-10-11 20:05:55.523 [Thread-1] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.maxRecords: 4
+2017-10-11 20:05:55.523 [Thread-1] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.maxSampledRecords: 40
+2017-10-11 20:05:55.544 [Thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 8
+2017-10-11 20:05:55.545 [Thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 8
+2017-10-11 20:05:55.545 [Thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+2017-10-11 20:05:55.545 [Thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 11
+2017-10-11 20:05:55.545 [Thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 16777216
+2017-10-11 20:05:55.545 [Thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.tinyCacheSize: 512
+2017-10-11 20:05:55.545 [Thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+2017-10-11 20:05:55.545 [Thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+2017-10-11 20:05:55.545 [Thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2017-10-11 20:05:55.545 [Thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+2017-10-11 20:05:55.546 [Thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: true
+2017-10-11 20:05:55.553 [Thread-1] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: pooled
+2017-10-11 20:05:55.553 [Thread-1] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 65536
+2017-10-11 20:05:55.553 [Thread-1] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2017-10-11 20:07:02.632 [Thread-1] DEBUG io.netty.util.internal.logging.InternalLoggerFactory - Using SLF4J as the default logging framework
+2017-10-11 20:07:02.638 [Thread-1] DEBUG io.netty.channel.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 8
+2017-10-11 20:07:02.673 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent - Platform: Windows
+2017-10-11 20:07:02.675 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent0 - -Dio.netty.noUnsafe: false
+2017-10-11 20:07:02.675 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent0 - Java version: 8
+2017-10-11 20:07:02.676 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+2017-10-11 20:07:02.676 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+2017-10-11 20:07:02.677 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+2017-10-11 20:07:02.677 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent0 - direct buffer constructor: available
+2017-10-11 20:07:02.678 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: available, true
+2017-10-11 20:07:02.678 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2017-10-11 20:07:02.678 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): available
+2017-10-11 20:07:02.678 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent - sun.misc.Unsafe: available
+2017-10-11 20:07:02.679 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.tmpdir: C:\Users\HEHAOX~1\AppData\Local\Temp (java.io.tmpdir)
+2017-10-11 20:07:02.679 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2017-10-11 20:07:02.680 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+2017-10-11 20:07:02.681 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.maxDirectMemory: 1883242496 bytes
+2017-10-11 20:07:02.681 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2017-10-11 20:07:02.681 [Thread-1] DEBUG io.netty.util.internal.CleanerJava6 - java.nio.ByteBuffer.cleaner(): available
+2017-10-11 20:07:02.695 [Thread-1] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+2017-10-11 20:07:02.695 [Thread-1] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+2017-10-11 20:07:02.705 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+2017-10-11 20:07:02.810 [Thread-1] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.processId: 13832 (auto-detected)
+2017-10-11 20:07:02.811 [Thread-1] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv4Stack: false
+2017-10-11 20:07:02.811 [Thread-1] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv6Addresses: false
+2017-10-11 20:07:02.843 [Thread-1] DEBUG io.netty.util.NetUtil - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2017-10-11 20:07:02.845 [Thread-1] DEBUG io.netty.util.NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2017-10-11 20:07:02.889 [Thread-1] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.machineId: 00:00:00:00:00:00:00:e0 (auto-detected)
+2017-10-11 20:07:02.896 [Thread-1] DEBUG io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2017-10-11 20:07:02.896 [Thread-1] DEBUG io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2017-10-11 20:07:02.905 [Thread-1] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+2017-10-11 20:07:02.905 [Thread-1] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.maxRecords: 4
+2017-10-11 20:07:02.905 [Thread-1] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.maxSampledRecords: 40
+2017-10-11 20:07:02.926 [Thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 8
+2017-10-11 20:07:02.926 [Thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 8
+2017-10-11 20:07:02.926 [Thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+2017-10-11 20:07:02.926 [Thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 11
+2017-10-11 20:07:02.926 [Thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 16777216
+2017-10-11 20:07:02.926 [Thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.tinyCacheSize: 512
+2017-10-11 20:07:02.926 [Thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+2017-10-11 20:07:02.926 [Thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+2017-10-11 20:07:02.926 [Thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2017-10-11 20:07:02.926 [Thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+2017-10-11 20:07:02.926 [Thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: true
+2017-10-11 20:07:02.933 [Thread-1] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: pooled
+2017-10-11 20:07:02.934 [Thread-1] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 65536
+2017-10-11 20:07:02.934 [Thread-1] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2017-10-11 20:07:51.688 [Thread-1] DEBUG io.netty.util.internal.logging.InternalLoggerFactory - Using SLF4J as the default logging framework
+2017-10-11 20:07:51.701 [Thread-1] DEBUG io.netty.channel.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 8
+2017-10-11 20:07:51.749 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent - Platform: Windows
+2017-10-11 20:07:51.752 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent0 - -Dio.netty.noUnsafe: false
+2017-10-11 20:07:51.752 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent0 - Java version: 8
+2017-10-11 20:07:51.754 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+2017-10-11 20:07:51.755 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+2017-10-11 20:07:51.755 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+2017-10-11 20:07:51.756 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent0 - direct buffer constructor: available
+2017-10-11 20:07:51.757 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: available, true
+2017-10-11 20:07:51.758 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2017-10-11 20:07:51.758 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): available
+2017-10-11 20:07:51.758 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent - sun.misc.Unsafe: available
+2017-10-11 20:07:51.758 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.tmpdir: C:\Users\HEHAOX~1\AppData\Local\Temp (java.io.tmpdir)
+2017-10-11 20:07:51.759 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2017-10-11 20:07:51.760 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+2017-10-11 20:07:51.761 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.maxDirectMemory: 1883242496 bytes
+2017-10-11 20:07:51.761 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2017-10-11 20:07:51.761 [Thread-1] DEBUG io.netty.util.internal.CleanerJava6 - java.nio.ByteBuffer.cleaner(): available
+2017-10-11 20:07:51.774 [Thread-1] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+2017-10-11 20:07:51.774 [Thread-1] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+2017-10-11 20:07:51.781 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+2017-10-11 20:07:51.887 [Thread-1] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.processId: 3676 (auto-detected)
+2017-10-11 20:07:51.889 [Thread-1] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv4Stack: false
+2017-10-11 20:07:51.889 [Thread-1] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv6Addresses: false
+2017-10-11 20:07:51.923 [Thread-1] DEBUG io.netty.util.NetUtil - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2017-10-11 20:07:51.924 [Thread-1] DEBUG io.netty.util.NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2017-10-11 20:07:51.970 [Thread-1] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.machineId: 00:00:00:00:00:00:00:e0 (auto-detected)
+2017-10-11 20:07:51.973 [Thread-1] DEBUG io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2017-10-11 20:07:51.973 [Thread-1] DEBUG io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2017-10-11 20:07:51.980 [Thread-1] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+2017-10-11 20:07:51.980 [Thread-1] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.maxRecords: 4
+2017-10-11 20:07:51.981 [Thread-1] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.maxSampledRecords: 40
+2017-10-11 20:07:52.001 [Thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 8
+2017-10-11 20:07:52.001 [Thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 8
+2017-10-11 20:07:52.001 [Thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+2017-10-11 20:07:52.001 [Thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 11
+2017-10-11 20:07:52.001 [Thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 16777216
+2017-10-11 20:07:52.001 [Thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.tinyCacheSize: 512
+2017-10-11 20:07:52.001 [Thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+2017-10-11 20:07:52.001 [Thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+2017-10-11 20:07:52.001 [Thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2017-10-11 20:07:52.002 [Thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+2017-10-11 20:07:52.002 [Thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: true
+2017-10-11 20:07:52.008 [Thread-1] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: pooled
+2017-10-11 20:07:52.009 [Thread-1] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 65536
+2017-10-11 20:07:52.009 [Thread-1] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2017-10-11 20:07:58.676 [Thread-1] DEBUG io.netty.util.internal.logging.InternalLoggerFactory - Using SLF4J as the default logging framework
+2017-10-11 20:07:58.679 [Thread-1] DEBUG io.netty.channel.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 8
+2017-10-11 20:07:58.715 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent - Platform: Windows
+2017-10-11 20:07:58.716 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent0 - -Dio.netty.noUnsafe: false
+2017-10-11 20:07:58.717 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent0 - Java version: 8
+2017-10-11 20:07:58.718 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+2017-10-11 20:07:58.719 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+2017-10-11 20:07:58.719 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+2017-10-11 20:07:58.720 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent0 - direct buffer constructor: available
+2017-10-11 20:07:58.720 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: available, true
+2017-10-11 20:07:58.720 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2017-10-11 20:07:58.720 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): available
+2017-10-11 20:07:58.720 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent - sun.misc.Unsafe: available
+2017-10-11 20:07:58.721 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.tmpdir: C:\Users\HEHAOX~1\AppData\Local\Temp (java.io.tmpdir)
+2017-10-11 20:07:58.721 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2017-10-11 20:07:58.723 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+2017-10-11 20:07:58.723 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.maxDirectMemory: 1883242496 bytes
+2017-10-11 20:07:58.723 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2017-10-11 20:07:58.724 [Thread-1] DEBUG io.netty.util.internal.CleanerJava6 - java.nio.ByteBuffer.cleaner(): available
+2017-10-11 20:07:58.738 [Thread-1] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+2017-10-11 20:07:58.738 [Thread-1] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+2017-10-11 20:07:58.743 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+2017-10-11 20:07:58.851 [Thread-1] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.processId: 12032 (auto-detected)
+2017-10-11 20:07:58.853 [Thread-1] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv4Stack: false
+2017-10-11 20:07:58.853 [Thread-1] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv6Addresses: false
+2017-10-11 20:07:58.889 [Thread-1] DEBUG io.netty.util.NetUtil - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2017-10-11 20:07:58.890 [Thread-1] DEBUG io.netty.util.NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2017-10-11 20:07:58.936 [Thread-1] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.machineId: 00:00:00:00:00:00:00:e0 (auto-detected)
+2017-10-11 20:07:58.940 [Thread-1] DEBUG io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2017-10-11 20:07:58.940 [Thread-1] DEBUG io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2017-10-11 20:07:58.948 [Thread-1] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+2017-10-11 20:07:58.948 [Thread-1] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.maxRecords: 4
+2017-10-11 20:07:58.949 [Thread-1] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.maxSampledRecords: 40
+2017-10-11 20:07:58.967 [Thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 8
+2017-10-11 20:07:58.967 [Thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 8
+2017-10-11 20:07:58.967 [Thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+2017-10-11 20:07:58.967 [Thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 11
+2017-10-11 20:07:58.967 [Thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 16777216
+2017-10-11 20:07:58.967 [Thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.tinyCacheSize: 512
+2017-10-11 20:07:58.967 [Thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+2017-10-11 20:07:58.967 [Thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+2017-10-11 20:07:58.967 [Thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2017-10-11 20:07:58.967 [Thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+2017-10-11 20:07:58.968 [Thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: true
+2017-10-11 20:07:58.975 [Thread-1] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: pooled
+2017-10-11 20:07:58.975 [Thread-1] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 65536
+2017-10-11 20:07:58.976 [Thread-1] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2017-10-11 20:08:37.124 [nioEventLoopGroup-3-1] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.maxCapacityPerThread: 32768
+2017-10-11 20:08:37.124 [nioEventLoopGroup-3-1] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+2017-10-11 20:08:37.124 [nioEventLoopGroup-3-1] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.linkCapacity: 16
+2017-10-11 20:08:37.124 [nioEventLoopGroup-3-1] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.ratio: 8
+2017-10-11 20:08:37.134 [nioEventLoopGroup-3-1] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.bytebuf.checkAccessible: true
+2017-10-11 20:08:37.136 [nioEventLoopGroup-3-1] DEBUG io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@51bd1364
+2017-10-11 20:09:00.938 [Thread-1] DEBUG io.netty.util.internal.logging.InternalLoggerFactory - Using SLF4J as the default logging framework
+2017-10-11 20:09:00.941 [Thread-1] DEBUG io.netty.channel.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 8
+2017-10-11 20:09:00.973 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent - Platform: Windows
+2017-10-11 20:09:00.975 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent0 - -Dio.netty.noUnsafe: false
+2017-10-11 20:09:00.976 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent0 - Java version: 8
+2017-10-11 20:09:00.977 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+2017-10-11 20:09:00.978 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+2017-10-11 20:09:00.979 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+2017-10-11 20:09:00.979 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent0 - direct buffer constructor: available
+2017-10-11 20:09:00.980 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: available, true
+2017-10-11 20:09:00.981 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2017-10-11 20:09:00.981 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): available
+2017-10-11 20:09:00.981 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent - sun.misc.Unsafe: available
+2017-10-11 20:09:00.982 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.tmpdir: C:\Users\HEHAOX~1\AppData\Local\Temp (java.io.tmpdir)
+2017-10-11 20:09:00.982 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2017-10-11 20:09:00.985 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+2017-10-11 20:09:00.985 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.maxDirectMemory: 1883242496 bytes
+2017-10-11 20:09:00.986 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2017-10-11 20:09:00.987 [Thread-1] DEBUG io.netty.util.internal.CleanerJava6 - java.nio.ByteBuffer.cleaner(): available
+2017-10-11 20:09:00.999 [Thread-1] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+2017-10-11 20:09:00.999 [Thread-1] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+2017-10-11 20:09:01.005 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+2017-10-11 20:09:01.116 [Thread-1] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.processId: 12832 (auto-detected)
+2017-10-11 20:09:01.118 [Thread-1] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv4Stack: false
+2017-10-11 20:09:01.118 [Thread-1] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv6Addresses: false
+2017-10-11 20:09:01.154 [Thread-1] DEBUG io.netty.util.NetUtil - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2017-10-11 20:09:01.154 [Thread-1] DEBUG io.netty.util.NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2017-10-11 20:09:01.206 [Thread-1] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.machineId: 00:00:00:00:00:00:00:e0 (auto-detected)
+2017-10-11 20:09:01.211 [Thread-1] DEBUG io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2017-10-11 20:09:01.212 [Thread-1] DEBUG io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2017-10-11 20:09:01.220 [Thread-1] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+2017-10-11 20:09:01.220 [Thread-1] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.maxRecords: 4
+2017-10-11 20:09:01.222 [Thread-1] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.maxSampledRecords: 40
+2017-10-11 20:09:01.247 [Thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 8
+2017-10-11 20:09:01.247 [Thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 8
+2017-10-11 20:09:01.247 [Thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+2017-10-11 20:09:01.247 [Thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 11
+2017-10-11 20:09:01.247 [Thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 16777216
+2017-10-11 20:09:01.247 [Thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.tinyCacheSize: 512
+2017-10-11 20:09:01.247 [Thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+2017-10-11 20:09:01.247 [Thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+2017-10-11 20:09:01.248 [Thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2017-10-11 20:09:01.248 [Thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+2017-10-11 20:09:01.248 [Thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: true
+2017-10-11 20:09:01.257 [Thread-1] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: pooled
+2017-10-11 20:09:01.257 [Thread-1] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 65536
+2017-10-11 20:09:01.257 [Thread-1] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2017-10-11 20:09:36.631 [main] DEBUG io.netty.util.internal.logging.InternalLoggerFactory - Using SLF4J as the default logging framework
+2017-10-11 20:09:36.636 [main] DEBUG io.netty.channel.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 8
+2017-10-11 20:09:36.673 [main] DEBUG io.netty.util.internal.PlatformDependent - Platform: Windows
+2017-10-11 20:09:36.676 [main] DEBUG io.netty.util.internal.PlatformDependent0 - -Dio.netty.noUnsafe: false
+2017-10-11 20:09:36.677 [main] DEBUG io.netty.util.internal.PlatformDependent0 - Java version: 8
+2017-10-11 20:09:36.678 [main] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+2017-10-11 20:09:36.679 [main] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+2017-10-11 20:09:36.680 [main] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+2017-10-11 20:09:36.683 [main] DEBUG io.netty.util.internal.PlatformDependent0 - direct buffer constructor: available
+2017-10-11 20:09:36.684 [main] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: available, true
+2017-10-11 20:09:36.684 [main] DEBUG io.netty.util.internal.PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2017-10-11 20:09:36.684 [main] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): available
+2017-10-11 20:09:36.684 [main] DEBUG io.netty.util.internal.PlatformDependent - sun.misc.Unsafe: available
+2017-10-11 20:09:36.684 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.tmpdir: C:\Users\HEHAOX~1\AppData\Local\Temp (java.io.tmpdir)
+2017-10-11 20:09:36.685 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2017-10-11 20:09:36.686 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+2017-10-11 20:09:36.686 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.maxDirectMemory: 1883242496 bytes
+2017-10-11 20:09:36.686 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2017-10-11 20:09:36.687 [main] DEBUG io.netty.util.internal.CleanerJava6 - java.nio.ByteBuffer.cleaner(): available
+2017-10-11 20:09:36.703 [main] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+2017-10-11 20:09:36.703 [main] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+2017-10-11 20:09:36.714 [main] DEBUG io.netty.util.internal.PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+2017-10-11 20:09:36.867 [main] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.processId: 7680 (auto-detected)
+2017-10-11 20:09:36.869 [main] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv4Stack: false
+2017-10-11 20:09:36.870 [main] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv6Addresses: false
+2017-10-11 20:09:36.904 [main] DEBUG io.netty.util.NetUtil - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2017-10-11 20:09:36.905 [main] DEBUG io.netty.util.NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2017-10-11 20:09:36.951 [main] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.machineId: 00:00:00:00:00:00:00:e0 (auto-detected)
+2017-10-11 20:09:36.955 [main] DEBUG io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2017-10-11 20:09:36.956 [main] DEBUG io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2017-10-11 20:09:36.962 [main] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+2017-10-11 20:09:36.962 [main] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.maxRecords: 4
+2017-10-11 20:09:36.962 [main] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.maxSampledRecords: 40
+2017-10-11 20:09:36.981 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 8
+2017-10-11 20:09:36.981 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 8
+2017-10-11 20:09:36.981 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+2017-10-11 20:09:36.982 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 11
+2017-10-11 20:09:36.982 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 16777216
+2017-10-11 20:09:36.982 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.tinyCacheSize: 512
+2017-10-11 20:09:36.982 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+2017-10-11 20:09:36.982 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+2017-10-11 20:09:36.982 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2017-10-11 20:09:36.982 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+2017-10-11 20:09:36.982 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: true
+2017-10-11 20:09:36.988 [main] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: pooled
+2017-10-11 20:09:36.988 [main] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 65536
+2017-10-11 20:09:36.988 [main] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2017-10-11 20:10:33.004 [nioEventLoopGroup-3-1] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.maxCapacityPerThread: 32768
+2017-10-11 20:10:33.004 [nioEventLoopGroup-3-1] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+2017-10-11 20:10:33.005 [nioEventLoopGroup-3-1] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.linkCapacity: 16
+2017-10-11 20:10:33.005 [nioEventLoopGroup-3-1] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.ratio: 8
+2017-10-11 20:10:33.014 [nioEventLoopGroup-3-1] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.bytebuf.checkAccessible: true
+2017-10-11 20:10:33.014 [nioEventLoopGroup-3-1] DEBUG io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@76dfc386
+2017-10-11 20:12:41.608 [Thread-1] DEBUG io.netty.util.internal.logging.InternalLoggerFactory - Using SLF4J as the default logging framework
+2017-10-11 20:12:41.613 [Thread-1] DEBUG io.netty.channel.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 8
+2017-10-11 20:12:41.662 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent - Platform: Windows
+2017-10-11 20:12:41.664 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent0 - -Dio.netty.noUnsafe: false
+2017-10-11 20:12:41.665 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent0 - Java version: 8
+2017-10-11 20:12:41.666 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+2017-10-11 20:12:41.667 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+2017-10-11 20:12:41.667 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+2017-10-11 20:12:41.668 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent0 - direct buffer constructor: available
+2017-10-11 20:12:41.669 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: available, true
+2017-10-11 20:12:41.669 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2017-10-11 20:12:41.669 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): available
+2017-10-11 20:12:41.669 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent - sun.misc.Unsafe: available
+2017-10-11 20:12:41.670 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.tmpdir: C:\Users\HEHAOX~1\AppData\Local\Temp (java.io.tmpdir)
+2017-10-11 20:12:41.671 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2017-10-11 20:12:41.672 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+2017-10-11 20:12:41.673 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.maxDirectMemory: 1883242496 bytes
+2017-10-11 20:12:41.673 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2017-10-11 20:12:41.673 [Thread-1] DEBUG io.netty.util.internal.CleanerJava6 - java.nio.ByteBuffer.cleaner(): available
+2017-10-11 20:12:41.690 [Thread-1] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+2017-10-11 20:12:41.690 [Thread-1] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+2017-10-11 20:12:41.698 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+2017-10-11 20:12:41.826 [Thread-1] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.processId: 5812 (auto-detected)
+2017-10-11 20:12:41.828 [Thread-1] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv4Stack: false
+2017-10-11 20:12:41.828 [Thread-1] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv6Addresses: false
+2017-10-11 20:12:41.866 [Thread-1] DEBUG io.netty.util.NetUtil - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2017-10-11 20:12:41.867 [Thread-1] DEBUG io.netty.util.NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2017-10-11 20:12:41.915 [Thread-1] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.machineId: 00:00:00:00:00:00:00:e0 (auto-detected)
+2017-10-11 20:12:41.921 [Thread-1] DEBUG io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2017-10-11 20:12:41.922 [Thread-1] DEBUG io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2017-10-11 20:12:41.930 [Thread-1] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+2017-10-11 20:12:41.930 [Thread-1] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.maxRecords: 4
+2017-10-11 20:12:41.931 [Thread-1] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.maxSampledRecords: 40
+2017-10-11 20:12:41.952 [Thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 8
+2017-10-11 20:12:41.952 [Thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 8
+2017-10-11 20:12:41.952 [Thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+2017-10-11 20:12:41.952 [Thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 11
+2017-10-11 20:12:41.953 [Thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 16777216
+2017-10-11 20:12:41.953 [Thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.tinyCacheSize: 512
+2017-10-11 20:12:41.953 [Thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+2017-10-11 20:12:41.953 [Thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+2017-10-11 20:12:41.953 [Thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2017-10-11 20:12:41.953 [Thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+2017-10-11 20:12:41.953 [Thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: true
+2017-10-11 20:12:41.960 [Thread-1] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: pooled
+2017-10-11 20:12:41.960 [Thread-1] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 65536
+2017-10-11 20:12:41.960 [Thread-1] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2017-10-11 20:12:51.929 [main] DEBUG io.netty.util.internal.logging.InternalLoggerFactory - Using SLF4J as the default logging framework
+2017-10-11 20:12:51.935 [main] DEBUG io.netty.channel.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 8
+2017-10-11 20:12:51.971 [main] DEBUG io.netty.util.internal.PlatformDependent - Platform: Windows
+2017-10-11 20:12:51.973 [main] DEBUG io.netty.util.internal.PlatformDependent0 - -Dio.netty.noUnsafe: false
+2017-10-11 20:12:51.973 [main] DEBUG io.netty.util.internal.PlatformDependent0 - Java version: 8
+2017-10-11 20:12:51.974 [main] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+2017-10-11 20:12:51.975 [main] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+2017-10-11 20:12:51.976 [main] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+2017-10-11 20:12:51.976 [main] DEBUG io.netty.util.internal.PlatformDependent0 - direct buffer constructor: available
+2017-10-11 20:12:51.976 [main] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: available, true
+2017-10-11 20:12:51.977 [main] DEBUG io.netty.util.internal.PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2017-10-11 20:12:51.977 [main] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): available
+2017-10-11 20:12:51.977 [main] DEBUG io.netty.util.internal.PlatformDependent - sun.misc.Unsafe: available
+2017-10-11 20:12:51.977 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.tmpdir: C:\Users\HEHAOX~1\AppData\Local\Temp (java.io.tmpdir)
+2017-10-11 20:12:51.977 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2017-10-11 20:12:51.978 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+2017-10-11 20:12:51.979 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.maxDirectMemory: 1883242496 bytes
+2017-10-11 20:12:51.979 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2017-10-11 20:12:51.979 [main] DEBUG io.netty.util.internal.CleanerJava6 - java.nio.ByteBuffer.cleaner(): available
+2017-10-11 20:12:51.996 [main] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+2017-10-11 20:12:51.996 [main] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+2017-10-11 20:12:52.013 [main] DEBUG io.netty.util.internal.PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+2017-10-11 20:12:52.161 [main] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.processId: 11248 (auto-detected)
+2017-10-11 20:12:52.163 [main] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv4Stack: false
+2017-10-11 20:12:52.163 [main] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv6Addresses: false
+2017-10-11 20:12:52.198 [main] DEBUG io.netty.util.NetUtil - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2017-10-11 20:12:52.198 [main] DEBUG io.netty.util.NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2017-10-11 20:12:52.246 [main] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.machineId: 00:00:00:00:00:00:00:e0 (auto-detected)
+2017-10-11 20:12:52.250 [main] DEBUG io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2017-10-11 20:12:52.250 [main] DEBUG io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2017-10-11 20:12:52.256 [main] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+2017-10-11 20:12:52.256 [main] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.maxRecords: 4
+2017-10-11 20:12:52.257 [main] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.maxSampledRecords: 40
+2017-10-11 20:12:52.277 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 8
+2017-10-11 20:12:52.277 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 8
+2017-10-11 20:12:52.277 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+2017-10-11 20:12:52.277 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 11
+2017-10-11 20:12:52.277 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 16777216
+2017-10-11 20:12:52.278 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.tinyCacheSize: 512
+2017-10-11 20:12:52.278 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+2017-10-11 20:12:52.278 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+2017-10-11 20:12:52.278 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2017-10-11 20:12:52.278 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+2017-10-11 20:12:52.278 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: true
+2017-10-11 20:12:52.285 [main] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: pooled
+2017-10-11 20:12:52.285 [main] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 65536
+2017-10-11 20:12:52.285 [main] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2017-10-11 20:13:09.452 [nioEventLoopGroup-3-1] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.maxCapacityPerThread: 32768
+2017-10-11 20:13:09.452 [nioEventLoopGroup-3-1] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+2017-10-11 20:13:09.452 [nioEventLoopGroup-3-1] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.linkCapacity: 16
+2017-10-11 20:13:09.452 [nioEventLoopGroup-3-1] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.ratio: 8
+2017-10-11 20:13:09.465 [nioEventLoopGroup-3-1] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.bytebuf.checkAccessible: true
+2017-10-11 20:13:09.466 [nioEventLoopGroup-3-1] DEBUG io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@3d2bbff7
+2017-10-11 20:14:55.536 [Thread-1] DEBUG io.netty.util.internal.logging.InternalLoggerFactory - Using SLF4J as the default logging framework
+2017-10-11 20:14:55.540 [Thread-1] DEBUG io.netty.channel.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 8
+2017-10-11 20:14:55.576 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent - Platform: Windows
+2017-10-11 20:14:55.578 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent0 - -Dio.netty.noUnsafe: false
+2017-10-11 20:14:55.579 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent0 - Java version: 8
+2017-10-11 20:14:55.580 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+2017-10-11 20:14:55.580 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+2017-10-11 20:14:55.581 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+2017-10-11 20:14:55.581 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent0 - direct buffer constructor: available
+2017-10-11 20:14:55.582 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: available, true
+2017-10-11 20:14:55.582 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2017-10-11 20:14:55.582 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): available
+2017-10-11 20:14:55.582 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent - sun.misc.Unsafe: available
+2017-10-11 20:14:55.582 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.tmpdir: C:\Users\HEHAOX~1\AppData\Local\Temp (java.io.tmpdir)
+2017-10-11 20:14:55.582 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2017-10-11 20:14:55.584 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+2017-10-11 20:14:55.584 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.maxDirectMemory: 1883242496 bytes
+2017-10-11 20:14:55.584 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2017-10-11 20:14:55.585 [Thread-1] DEBUG io.netty.util.internal.CleanerJava6 - java.nio.ByteBuffer.cleaner(): available
+2017-10-11 20:14:55.596 [Thread-1] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+2017-10-11 20:14:55.597 [Thread-1] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+2017-10-11 20:14:55.603 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+2017-10-11 20:14:55.705 [Thread-1] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.processId: 352 (auto-detected)
+2017-10-11 20:14:55.707 [Thread-1] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv4Stack: false
+2017-10-11 20:14:55.707 [Thread-1] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv6Addresses: false
+2017-10-11 20:14:55.741 [Thread-1] DEBUG io.netty.util.NetUtil - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2017-10-11 20:14:55.742 [Thread-1] DEBUG io.netty.util.NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2017-10-11 20:14:55.789 [Thread-1] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.machineId: 00:00:00:00:00:00:00:e0 (auto-detected)
+2017-10-11 20:14:55.794 [Thread-1] DEBUG io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2017-10-11 20:14:55.795 [Thread-1] DEBUG io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2017-10-11 20:14:55.803 [Thread-1] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+2017-10-11 20:14:55.803 [Thread-1] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.maxRecords: 4
+2017-10-11 20:14:55.804 [Thread-1] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.maxSampledRecords: 40
+2017-10-11 20:14:55.822 [Thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 8
+2017-10-11 20:14:55.822 [Thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 8
+2017-10-11 20:14:55.822 [Thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+2017-10-11 20:14:55.822 [Thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 11
+2017-10-11 20:14:55.822 [Thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 16777216
+2017-10-11 20:14:55.822 [Thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.tinyCacheSize: 512
+2017-10-11 20:14:55.822 [Thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+2017-10-11 20:14:55.823 [Thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+2017-10-11 20:14:55.823 [Thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2017-10-11 20:14:55.823 [Thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+2017-10-11 20:14:55.823 [Thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: true
+2017-10-11 20:14:55.830 [Thread-1] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: pooled
+2017-10-11 20:14:55.831 [Thread-1] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 65536
+2017-10-11 20:14:55.831 [Thread-1] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2017-10-11 20:15:03.265 [main] DEBUG io.netty.util.internal.logging.InternalLoggerFactory - Using SLF4J as the default logging framework
+2017-10-11 20:15:03.271 [main] DEBUG io.netty.channel.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 8
+2017-10-11 20:15:03.306 [main] DEBUG io.netty.util.internal.PlatformDependent - Platform: Windows
+2017-10-11 20:15:03.307 [main] DEBUG io.netty.util.internal.PlatformDependent0 - -Dio.netty.noUnsafe: false
+2017-10-11 20:15:03.307 [main] DEBUG io.netty.util.internal.PlatformDependent0 - Java version: 8
+2017-10-11 20:15:03.309 [main] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+2017-10-11 20:15:03.309 [main] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+2017-10-11 20:15:03.310 [main] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+2017-10-11 20:15:03.310 [main] DEBUG io.netty.util.internal.PlatformDependent0 - direct buffer constructor: available
+2017-10-11 20:15:03.311 [main] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: available, true
+2017-10-11 20:15:03.311 [main] DEBUG io.netty.util.internal.PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2017-10-11 20:15:03.311 [main] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): available
+2017-10-11 20:15:03.311 [main] DEBUG io.netty.util.internal.PlatformDependent - sun.misc.Unsafe: available
+2017-10-11 20:15:03.312 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.tmpdir: C:\Users\HEHAOX~1\AppData\Local\Temp (java.io.tmpdir)
+2017-10-11 20:15:03.312 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2017-10-11 20:15:03.314 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+2017-10-11 20:15:03.315 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.maxDirectMemory: 1883242496 bytes
+2017-10-11 20:15:03.315 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2017-10-11 20:15:03.316 [main] DEBUG io.netty.util.internal.CleanerJava6 - java.nio.ByteBuffer.cleaner(): available
+2017-10-11 20:15:03.335 [main] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+2017-10-11 20:15:03.335 [main] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+2017-10-11 20:15:03.343 [main] DEBUG io.netty.util.internal.PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+2017-10-11 20:15:03.497 [main] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.processId: 6540 (auto-detected)
+2017-10-11 20:15:03.499 [main] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv4Stack: false
+2017-10-11 20:15:03.500 [main] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv6Addresses: false
+2017-10-11 20:15:03.534 [main] DEBUG io.netty.util.NetUtil - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2017-10-11 20:15:03.535 [main] DEBUG io.netty.util.NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2017-10-11 20:15:03.580 [main] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.machineId: 00:00:00:00:00:00:00:e0 (auto-detected)
+2017-10-11 20:15:03.584 [main] DEBUG io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2017-10-11 20:15:03.585 [main] DEBUG io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2017-10-11 20:15:03.591 [main] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+2017-10-11 20:15:03.591 [main] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.maxRecords: 4
+2017-10-11 20:15:03.592 [main] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.maxSampledRecords: 40
+2017-10-11 20:15:03.614 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 8
+2017-10-11 20:15:03.614 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 8
+2017-10-11 20:15:03.614 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+2017-10-11 20:15:03.614 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 11
+2017-10-11 20:15:03.614 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 16777216
+2017-10-11 20:15:03.614 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.tinyCacheSize: 512
+2017-10-11 20:15:03.614 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+2017-10-11 20:15:03.614 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+2017-10-11 20:15:03.614 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2017-10-11 20:15:03.614 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+2017-10-11 20:15:03.614 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: true
+2017-10-11 20:15:03.621 [main] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: pooled
+2017-10-11 20:15:03.621 [main] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 65536
+2017-10-11 20:15:03.621 [main] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2017-10-11 20:15:38.512 [nioEventLoopGroup-2-1] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.maxCapacityPerThread: 32768
+2017-10-11 20:15:38.512 [nioEventLoopGroup-2-1] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+2017-10-11 20:15:38.512 [nioEventLoopGroup-2-1] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.linkCapacity: 16
+2017-10-11 20:15:38.512 [nioEventLoopGroup-2-1] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.ratio: 8
+2017-10-11 20:15:38.523 [nioEventLoopGroup-2-1] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.bytebuf.checkAccessible: true
+2017-10-11 20:15:38.524 [nioEventLoopGroup-2-1] DEBUG io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@17effea7
+2017-10-11 20:17:26.384 [main] DEBUG io.netty.util.internal.logging.InternalLoggerFactory - Using SLF4J as the default logging framework
+2017-10-11 20:17:26.389 [main] DEBUG io.netty.channel.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 8
+2017-10-11 20:17:26.425 [main] DEBUG io.netty.util.internal.PlatformDependent - Platform: Windows
+2017-10-11 20:17:26.427 [main] DEBUG io.netty.util.internal.PlatformDependent0 - -Dio.netty.noUnsafe: false
+2017-10-11 20:17:26.428 [main] DEBUG io.netty.util.internal.PlatformDependent0 - Java version: 8
+2017-10-11 20:17:26.429 [main] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+2017-10-11 20:17:26.430 [main] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+2017-10-11 20:17:26.431 [main] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+2017-10-11 20:17:26.431 [main] DEBUG io.netty.util.internal.PlatformDependent0 - direct buffer constructor: available
+2017-10-11 20:17:26.432 [main] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: available, true
+2017-10-11 20:17:26.433 [main] DEBUG io.netty.util.internal.PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2017-10-11 20:17:26.433 [main] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): available
+2017-10-11 20:17:26.433 [main] DEBUG io.netty.util.internal.PlatformDependent - sun.misc.Unsafe: available
+2017-10-11 20:17:26.433 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.tmpdir: C:\Users\HEHAOX~1\AppData\Local\Temp (java.io.tmpdir)
+2017-10-11 20:17:26.434 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2017-10-11 20:17:26.435 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+2017-10-11 20:17:26.435 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.maxDirectMemory: 1883242496 bytes
+2017-10-11 20:17:26.436 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2017-10-11 20:17:26.436 [main] DEBUG io.netty.util.internal.CleanerJava6 - java.nio.ByteBuffer.cleaner(): available
+2017-10-11 20:17:26.462 [main] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+2017-10-11 20:17:26.463 [main] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+2017-10-11 20:17:26.473 [main] DEBUG io.netty.util.internal.PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+2017-10-11 20:17:26.620 [main] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.processId: 14048 (auto-detected)
+2017-10-11 20:17:26.622 [main] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv4Stack: false
+2017-10-11 20:17:26.622 [main] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv6Addresses: false
+2017-10-11 20:17:26.656 [main] DEBUG io.netty.util.NetUtil - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2017-10-11 20:17:26.656 [main] DEBUG io.netty.util.NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2017-10-11 20:17:26.702 [main] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.machineId: 00:00:00:00:00:00:00:e0 (auto-detected)
+2017-10-11 20:17:26.706 [main] DEBUG io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2017-10-11 20:17:26.707 [main] DEBUG io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2017-10-11 20:17:26.717 [main] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+2017-10-11 20:17:26.717 [main] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.maxRecords: 4
+2017-10-11 20:17:26.718 [main] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.maxSampledRecords: 40
+2017-10-11 20:17:26.736 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 8
+2017-10-11 20:17:26.736 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 8
+2017-10-11 20:17:26.736 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+2017-10-11 20:17:26.736 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 11
+2017-10-11 20:17:26.736 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 16777216
+2017-10-11 20:17:26.736 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.tinyCacheSize: 512
+2017-10-11 20:17:26.736 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+2017-10-11 20:17:26.736 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+2017-10-11 20:17:26.736 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2017-10-11 20:17:26.736 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+2017-10-11 20:17:26.737 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: true
+2017-10-11 20:17:26.742 [main] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: pooled
+2017-10-11 20:17:26.743 [main] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 65536
+2017-10-11 20:17:26.743 [main] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2017-10-11 20:17:45.550 [Thread-1] DEBUG io.netty.util.internal.logging.InternalLoggerFactory - Using SLF4J as the default logging framework
+2017-10-11 20:17:45.554 [Thread-1] DEBUG io.netty.channel.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 8
+2017-10-11 20:17:45.588 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent - Platform: Windows
+2017-10-11 20:17:45.589 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent0 - -Dio.netty.noUnsafe: false
+2017-10-11 20:17:45.590 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent0 - Java version: 8
+2017-10-11 20:17:45.591 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+2017-10-11 20:17:45.592 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+2017-10-11 20:17:45.593 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+2017-10-11 20:17:45.593 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent0 - direct buffer constructor: available
+2017-10-11 20:17:45.594 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: available, true
+2017-10-11 20:17:45.594 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2017-10-11 20:17:45.594 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): available
+2017-10-11 20:17:45.594 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent - sun.misc.Unsafe: available
+2017-10-11 20:17:45.594 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.tmpdir: C:\Users\HEHAOX~1\AppData\Local\Temp (java.io.tmpdir)
+2017-10-11 20:17:45.594 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2017-10-11 20:17:45.595 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+2017-10-11 20:17:45.596 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.maxDirectMemory: 1883242496 bytes
+2017-10-11 20:17:45.596 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2017-10-11 20:17:45.596 [Thread-1] DEBUG io.netty.util.internal.CleanerJava6 - java.nio.ByteBuffer.cleaner(): available
+2017-10-11 20:17:45.609 [Thread-1] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+2017-10-11 20:17:45.609 [Thread-1] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+2017-10-11 20:17:45.616 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+2017-10-11 20:17:45.751 [Thread-1] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.processId: 12284 (auto-detected)
+2017-10-11 20:17:45.753 [Thread-1] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv4Stack: false
+2017-10-11 20:17:45.753 [Thread-1] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv6Addresses: false
+2017-10-11 20:17:45.787 [Thread-1] DEBUG io.netty.util.NetUtil - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2017-10-11 20:17:45.788 [Thread-1] DEBUG io.netty.util.NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2017-10-11 20:17:45.831 [Thread-1] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.machineId: 00:00:00:00:00:00:00:e0 (auto-detected)
+2017-10-11 20:17:45.837 [Thread-1] DEBUG io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2017-10-11 20:17:45.837 [Thread-1] DEBUG io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2017-10-11 20:17:45.844 [Thread-1] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+2017-10-11 20:17:45.844 [Thread-1] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.maxRecords: 4
+2017-10-11 20:17:45.846 [Thread-1] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.maxSampledRecords: 40
+2017-10-11 20:17:45.865 [Thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 8
+2017-10-11 20:17:45.865 [Thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 8
+2017-10-11 20:17:45.865 [Thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+2017-10-11 20:17:45.865 [Thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 11
+2017-10-11 20:17:45.865 [Thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 16777216
+2017-10-11 20:17:45.865 [Thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.tinyCacheSize: 512
+2017-10-11 20:17:45.865 [Thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+2017-10-11 20:17:45.865 [Thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+2017-10-11 20:17:45.865 [Thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2017-10-11 20:17:45.865 [Thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+2017-10-11 20:17:45.866 [Thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: true
+2017-10-11 20:17:45.872 [Thread-1] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: pooled
+2017-10-11 20:17:45.872 [Thread-1] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 65536
+2017-10-11 20:17:45.872 [Thread-1] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2017-10-11 20:18:23.072 [nioEventLoopGroup-3-1] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.maxCapacityPerThread: 32768
+2017-10-11 20:18:23.072 [nioEventLoopGroup-3-1] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+2017-10-11 20:18:23.072 [nioEventLoopGroup-3-1] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.linkCapacity: 16
+2017-10-11 20:18:23.072 [nioEventLoopGroup-3-1] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.ratio: 8
+2017-10-11 20:18:23.085 [nioEventLoopGroup-3-1] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.bytebuf.checkAccessible: true
+2017-10-11 20:18:23.086 [nioEventLoopGroup-3-1] DEBUG io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@76dfc386
+2017-10-11 20:20:26.873 [main] DEBUG io.netty.util.internal.logging.InternalLoggerFactory - Using SLF4J as the default logging framework
+2017-10-11 20:20:26.879 [main] DEBUG io.netty.channel.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 8
+2017-10-11 20:20:26.916 [main] DEBUG io.netty.util.internal.PlatformDependent - Platform: Windows
+2017-10-11 20:20:26.919 [main] DEBUG io.netty.util.internal.PlatformDependent0 - -Dio.netty.noUnsafe: false
+2017-10-11 20:20:26.919 [main] DEBUG io.netty.util.internal.PlatformDependent0 - Java version: 8
+2017-10-11 20:20:26.921 [main] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+2017-10-11 20:20:26.921 [main] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+2017-10-11 20:20:26.922 [main] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+2017-10-11 20:20:26.923 [main] DEBUG io.netty.util.internal.PlatformDependent0 - direct buffer constructor: available
+2017-10-11 20:20:26.924 [main] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: available, true
+2017-10-11 20:20:26.924 [main] DEBUG io.netty.util.internal.PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2017-10-11 20:20:26.924 [main] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): available
+2017-10-11 20:20:26.925 [main] DEBUG io.netty.util.internal.PlatformDependent - sun.misc.Unsafe: available
+2017-10-11 20:20:26.925 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.tmpdir: C:\Users\HEHAOX~1\AppData\Local\Temp (java.io.tmpdir)
+2017-10-11 20:20:26.925 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2017-10-11 20:20:26.927 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+2017-10-11 20:20:26.928 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.maxDirectMemory: 1883242496 bytes
+2017-10-11 20:20:26.928 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2017-10-11 20:20:26.929 [main] DEBUG io.netty.util.internal.CleanerJava6 - java.nio.ByteBuffer.cleaner(): available
+2017-10-11 20:20:26.949 [main] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+2017-10-11 20:20:26.950 [main] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+2017-10-11 20:20:26.964 [main] DEBUG io.netty.util.internal.PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+2017-10-11 20:20:27.113 [main] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.processId: 3556 (auto-detected)
+2017-10-11 20:20:27.115 [main] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv4Stack: false
+2017-10-11 20:20:27.115 [main] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv6Addresses: false
+2017-10-11 20:20:27.150 [main] DEBUG io.netty.util.NetUtil - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2017-10-11 20:20:27.151 [main] DEBUG io.netty.util.NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2017-10-11 20:20:27.196 [main] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.machineId: 00:00:00:00:00:00:00:e0 (auto-detected)
+2017-10-11 20:20:27.201 [main] DEBUG io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2017-10-11 20:20:27.201 [main] DEBUG io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2017-10-11 20:20:27.207 [main] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+2017-10-11 20:20:27.208 [main] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.maxRecords: 4
+2017-10-11 20:20:27.209 [main] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.maxSampledRecords: 40
+2017-10-11 20:20:27.228 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 8
+2017-10-11 20:20:27.228 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 8
+2017-10-11 20:20:27.228 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+2017-10-11 20:20:27.228 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 11
+2017-10-11 20:20:27.228 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 16777216
+2017-10-11 20:20:27.229 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.tinyCacheSize: 512
+2017-10-11 20:20:27.229 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+2017-10-11 20:20:27.229 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+2017-10-11 20:20:27.229 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2017-10-11 20:20:27.229 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+2017-10-11 20:20:27.229 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: true
+2017-10-11 20:20:27.236 [main] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: pooled
+2017-10-11 20:20:27.236 [main] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 65536
+2017-10-11 20:20:27.236 [main] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2017-10-11 20:20:37.786 [Thread-1] DEBUG io.netty.util.internal.logging.InternalLoggerFactory - Using SLF4J as the default logging framework
+2017-10-11 20:20:37.790 [Thread-1] DEBUG io.netty.channel.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 8
+2017-10-11 20:20:37.823 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent - Platform: Windows
+2017-10-11 20:20:37.825 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent0 - -Dio.netty.noUnsafe: false
+2017-10-11 20:20:37.826 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent0 - Java version: 8
+2017-10-11 20:20:37.828 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+2017-10-11 20:20:37.829 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+2017-10-11 20:20:37.829 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+2017-10-11 20:20:37.830 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent0 - direct buffer constructor: available
+2017-10-11 20:20:37.831 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: available, true
+2017-10-11 20:20:37.831 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2017-10-11 20:20:37.831 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): available
+2017-10-11 20:20:37.831 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent - sun.misc.Unsafe: available
+2017-10-11 20:20:37.832 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.tmpdir: C:\Users\HEHAOX~1\AppData\Local\Temp (java.io.tmpdir)
+2017-10-11 20:20:37.832 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2017-10-11 20:20:37.833 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+2017-10-11 20:20:37.834 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.maxDirectMemory: 1883242496 bytes
+2017-10-11 20:20:37.834 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2017-10-11 20:20:37.834 [Thread-1] DEBUG io.netty.util.internal.CleanerJava6 - java.nio.ByteBuffer.cleaner(): available
+2017-10-11 20:20:37.848 [Thread-1] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+2017-10-11 20:20:37.848 [Thread-1] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+2017-10-11 20:20:37.854 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+2017-10-11 20:20:37.960 [Thread-1] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.processId: 12348 (auto-detected)
+2017-10-11 20:20:37.962 [Thread-1] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv4Stack: false
+2017-10-11 20:20:37.962 [Thread-1] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv6Addresses: false
+2017-10-11 20:20:37.995 [Thread-1] DEBUG io.netty.util.NetUtil - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2017-10-11 20:20:37.996 [Thread-1] DEBUG io.netty.util.NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2017-10-11 20:20:38.044 [Thread-1] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.machineId: 00:00:00:00:00:00:00:e0 (auto-detected)
+2017-10-11 20:20:38.048 [Thread-1] DEBUG io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2017-10-11 20:20:38.049 [Thread-1] DEBUG io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2017-10-11 20:20:38.057 [Thread-1] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+2017-10-11 20:20:38.057 [Thread-1] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.maxRecords: 4
+2017-10-11 20:20:38.058 [Thread-1] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.maxSampledRecords: 40
+2017-10-11 20:20:38.077 [Thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 8
+2017-10-11 20:20:38.078 [Thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 8
+2017-10-11 20:20:38.078 [Thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+2017-10-11 20:20:38.078 [Thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 11
+2017-10-11 20:20:38.078 [Thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 16777216
+2017-10-11 20:20:38.078 [Thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.tinyCacheSize: 512
+2017-10-11 20:20:38.078 [Thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+2017-10-11 20:20:38.078 [Thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+2017-10-11 20:20:38.078 [Thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2017-10-11 20:20:38.078 [Thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+2017-10-11 20:20:38.078 [Thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: true
+2017-10-11 20:20:38.084 [Thread-1] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: pooled
+2017-10-11 20:20:38.085 [Thread-1] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 65536
+2017-10-11 20:20:38.085 [Thread-1] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2017-10-11 20:20:39.310 [nioEventLoopGroup-5-1] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.maxCapacityPerThread: 32768
+2017-10-11 20:20:39.310 [nioEventLoopGroup-5-1] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+2017-10-11 20:20:39.310 [nioEventLoopGroup-5-1] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.linkCapacity: 16
+2017-10-11 20:20:39.310 [nioEventLoopGroup-5-1] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.ratio: 8
+2017-10-11 20:20:39.335 [nioEventLoopGroup-5-1] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.bytebuf.checkAccessible: true
+2017-10-11 20:20:39.338 [nioEventLoopGroup-5-1] DEBUG io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@1382479b
+2017-10-11 20:20:39.344 [nioEventLoopGroup-3-1] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.maxCapacityPerThread: 32768
+2017-10-11 20:20:39.344 [nioEventLoopGroup-3-1] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+2017-10-11 20:20:39.344 [nioEventLoopGroup-3-1] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.linkCapacity: 16
+2017-10-11 20:20:39.344 [nioEventLoopGroup-3-1] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.ratio: 8
+2017-10-11 20:20:39.352 [nioEventLoopGroup-3-1] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.bytebuf.checkAccessible: true
+2017-10-11 20:20:39.354 [nioEventLoopGroup-3-1] DEBUG io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@76dfc386
+2017-10-11 20:22:26.108 [main] DEBUG io.netty.util.internal.logging.InternalLoggerFactory - Using SLF4J as the default logging framework
+2017-10-11 20:22:26.113 [main] DEBUG io.netty.channel.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 8
+2017-10-11 20:22:26.150 [main] DEBUG io.netty.util.internal.PlatformDependent - Platform: Windows
+2017-10-11 20:22:26.153 [main] DEBUG io.netty.util.internal.PlatformDependent0 - -Dio.netty.noUnsafe: false
+2017-10-11 20:22:26.153 [main] DEBUG io.netty.util.internal.PlatformDependent0 - Java version: 8
+2017-10-11 20:22:26.155 [main] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+2017-10-11 20:22:26.156 [main] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+2017-10-11 20:22:26.157 [main] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+2017-10-11 20:22:26.158 [main] DEBUG io.netty.util.internal.PlatformDependent0 - direct buffer constructor: available
+2017-10-11 20:22:26.159 [main] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: available, true
+2017-10-11 20:22:26.159 [main] DEBUG io.netty.util.internal.PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2017-10-11 20:22:26.160 [main] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): available
+2017-10-11 20:22:26.160 [main] DEBUG io.netty.util.internal.PlatformDependent - sun.misc.Unsafe: available
+2017-10-11 20:22:26.160 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.tmpdir: C:\Users\HEHAOX~1\AppData\Local\Temp (java.io.tmpdir)
+2017-10-11 20:22:26.161 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2017-10-11 20:22:26.162 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+2017-10-11 20:22:26.162 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.maxDirectMemory: 1883242496 bytes
+2017-10-11 20:22:26.162 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2017-10-11 20:22:26.163 [main] DEBUG io.netty.util.internal.CleanerJava6 - java.nio.ByteBuffer.cleaner(): available
+2017-10-11 20:22:26.181 [main] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+2017-10-11 20:22:26.181 [main] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+2017-10-11 20:22:26.196 [main] DEBUG io.netty.util.internal.PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+2017-10-11 20:22:26.341 [main] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.processId: 12824 (auto-detected)
+2017-10-11 20:22:26.343 [main] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv4Stack: false
+2017-10-11 20:22:26.343 [main] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv6Addresses: false
+2017-10-11 20:22:26.377 [main] DEBUG io.netty.util.NetUtil - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2017-10-11 20:22:26.378 [main] DEBUG io.netty.util.NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2017-10-11 20:22:26.425 [main] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.machineId: 00:00:00:00:00:00:00:e0 (auto-detected)
+2017-10-11 20:22:26.429 [main] DEBUG io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2017-10-11 20:22:26.429 [main] DEBUG io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2017-10-11 20:22:26.436 [main] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+2017-10-11 20:22:26.436 [main] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.maxRecords: 4
+2017-10-11 20:22:26.437 [main] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.maxSampledRecords: 40
+2017-10-11 20:22:26.456 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 8
+2017-10-11 20:22:26.456 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 8
+2017-10-11 20:22:26.456 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+2017-10-11 20:22:26.456 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 11
+2017-10-11 20:22:26.456 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 16777216
+2017-10-11 20:22:26.456 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.tinyCacheSize: 512
+2017-10-11 20:22:26.456 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+2017-10-11 20:22:26.456 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+2017-10-11 20:22:26.456 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2017-10-11 20:22:26.456 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+2017-10-11 20:22:26.456 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: true
+2017-10-11 20:22:26.464 [main] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: pooled
+2017-10-11 20:22:26.464 [main] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 65536
+2017-10-11 20:22:26.464 [main] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2017-10-11 20:22:35.982 [Thread-1] DEBUG io.netty.util.internal.logging.InternalLoggerFactory - Using SLF4J as the default logging framework
+2017-10-11 20:22:35.985 [Thread-1] DEBUG io.netty.channel.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 8
+2017-10-11 20:22:36.022 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent - Platform: Windows
+2017-10-11 20:22:36.024 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent0 - -Dio.netty.noUnsafe: false
+2017-10-11 20:22:36.024 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent0 - Java version: 8
+2017-10-11 20:22:36.025 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+2017-10-11 20:22:36.026 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+2017-10-11 20:22:36.027 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+2017-10-11 20:22:36.027 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent0 - direct buffer constructor: available
+2017-10-11 20:22:36.028 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: available, true
+2017-10-11 20:22:36.028 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2017-10-11 20:22:36.028 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): available
+2017-10-11 20:22:36.029 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent - sun.misc.Unsafe: available
+2017-10-11 20:22:36.029 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.tmpdir: C:\Users\HEHAOX~1\AppData\Local\Temp (java.io.tmpdir)
+2017-10-11 20:22:36.029 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2017-10-11 20:22:36.031 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+2017-10-11 20:22:36.031 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.maxDirectMemory: 1883242496 bytes
+2017-10-11 20:22:36.031 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2017-10-11 20:22:36.032 [Thread-1] DEBUG io.netty.util.internal.CleanerJava6 - java.nio.ByteBuffer.cleaner(): available
+2017-10-11 20:22:36.044 [Thread-1] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+2017-10-11 20:22:36.044 [Thread-1] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+2017-10-11 20:22:36.052 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+2017-10-11 20:22:36.200 [Thread-1] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.processId: 4744 (auto-detected)
+2017-10-11 20:22:36.202 [Thread-1] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv4Stack: false
+2017-10-11 20:22:36.202 [Thread-1] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv6Addresses: false
+2017-10-11 20:22:36.240 [Thread-1] DEBUG io.netty.util.NetUtil - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2017-10-11 20:22:36.241 [Thread-1] DEBUG io.netty.util.NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2017-10-11 20:22:36.289 [Thread-1] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.machineId: 00:00:00:00:00:00:00:e0 (auto-detected)
+2017-10-11 20:22:36.295 [Thread-1] DEBUG io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2017-10-11 20:22:36.296 [Thread-1] DEBUG io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2017-10-11 20:22:36.303 [Thread-1] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+2017-10-11 20:22:36.304 [Thread-1] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.maxRecords: 4
+2017-10-11 20:22:36.305 [Thread-1] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.maxSampledRecords: 40
+2017-10-11 20:22:36.328 [Thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 8
+2017-10-11 20:22:36.329 [Thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 8
+2017-10-11 20:22:36.329 [Thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+2017-10-11 20:22:36.329 [Thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 11
+2017-10-11 20:22:36.329 [Thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 16777216
+2017-10-11 20:22:36.329 [Thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.tinyCacheSize: 512
+2017-10-11 20:22:36.329 [Thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+2017-10-11 20:22:36.329 [Thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+2017-10-11 20:22:36.329 [Thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2017-10-11 20:22:36.329 [Thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+2017-10-11 20:22:36.329 [Thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: true
+2017-10-11 20:22:36.338 [Thread-1] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: pooled
+2017-10-11 20:22:36.339 [Thread-1] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 65536
+2017-10-11 20:22:36.339 [Thread-1] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2017-10-11 20:22:38.537 [nioEventLoopGroup-5-1] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.maxCapacityPerThread: 32768
+2017-10-11 20:22:38.537 [nioEventLoopGroup-5-1] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+2017-10-11 20:22:38.537 [nioEventLoopGroup-5-1] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.linkCapacity: 16
+2017-10-11 20:22:38.537 [nioEventLoopGroup-5-1] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.ratio: 8
+2017-10-11 20:22:38.562 [nioEventLoopGroup-5-1] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.bytebuf.checkAccessible: true
+2017-10-11 20:22:38.563 [nioEventLoopGroup-5-1] DEBUG io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@4b363dac
+2017-10-11 20:22:38.569 [nioEventLoopGroup-3-1] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.maxCapacityPerThread: 32768
+2017-10-11 20:22:38.569 [nioEventLoopGroup-3-1] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+2017-10-11 20:22:38.569 [nioEventLoopGroup-3-1] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.linkCapacity: 16
+2017-10-11 20:22:38.569 [nioEventLoopGroup-3-1] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.ratio: 8
+2017-10-11 20:22:38.577 [nioEventLoopGroup-3-1] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.bytebuf.checkAccessible: true
+2017-10-11 20:22:38.578 [nioEventLoopGroup-3-1] DEBUG io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@51bd1364
+2017-10-11 20:24:01.609 [main] DEBUG io.netty.util.internal.logging.InternalLoggerFactory - Using SLF4J as the default logging framework
+2017-10-11 20:24:01.615 [main] DEBUG io.netty.channel.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 8
+2017-10-11 20:24:01.651 [main] DEBUG io.netty.util.internal.PlatformDependent - Platform: Windows
+2017-10-11 20:24:01.653 [main] DEBUG io.netty.util.internal.PlatformDependent0 - -Dio.netty.noUnsafe: false
+2017-10-11 20:24:01.654 [main] DEBUG io.netty.util.internal.PlatformDependent0 - Java version: 8
+2017-10-11 20:24:01.655 [main] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+2017-10-11 20:24:01.656 [main] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+2017-10-11 20:24:01.656 [main] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+2017-10-11 20:24:01.657 [main] DEBUG io.netty.util.internal.PlatformDependent0 - direct buffer constructor: available
+2017-10-11 20:24:01.657 [main] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: available, true
+2017-10-11 20:24:01.658 [main] DEBUG io.netty.util.internal.PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2017-10-11 20:24:01.658 [main] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): available
+2017-10-11 20:24:01.658 [main] DEBUG io.netty.util.internal.PlatformDependent - sun.misc.Unsafe: available
+2017-10-11 20:24:01.658 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.tmpdir: C:\Users\HEHAOX~1\AppData\Local\Temp (java.io.tmpdir)
+2017-10-11 20:24:01.658 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2017-10-11 20:24:01.659 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+2017-10-11 20:24:01.660 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.maxDirectMemory: 1883242496 bytes
+2017-10-11 20:24:01.660 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2017-10-11 20:24:01.660 [main] DEBUG io.netty.util.internal.CleanerJava6 - java.nio.ByteBuffer.cleaner(): available
+2017-10-11 20:24:01.682 [main] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+2017-10-11 20:24:01.683 [main] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+2017-10-11 20:24:01.693 [main] DEBUG io.netty.util.internal.PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+2017-10-11 20:24:01.840 [main] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.processId: 13060 (auto-detected)
+2017-10-11 20:24:01.842 [main] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv4Stack: false
+2017-10-11 20:24:01.842 [main] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv6Addresses: false
+2017-10-11 20:24:01.877 [main] DEBUG io.netty.util.NetUtil - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2017-10-11 20:24:01.878 [main] DEBUG io.netty.util.NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2017-10-11 20:24:01.922 [main] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.machineId: 00:00:00:00:00:00:00:e0 (auto-detected)
+2017-10-11 20:24:01.927 [main] DEBUG io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2017-10-11 20:24:01.927 [main] DEBUG io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2017-10-11 20:24:01.934 [main] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+2017-10-11 20:24:01.935 [main] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.maxRecords: 4
+2017-10-11 20:24:01.936 [main] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.maxSampledRecords: 40
+2017-10-11 20:24:01.954 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 8
+2017-10-11 20:24:01.955 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 8
+2017-10-11 20:24:01.955 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+2017-10-11 20:24:01.955 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 11
+2017-10-11 20:24:01.955 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 16777216
+2017-10-11 20:24:01.955 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.tinyCacheSize: 512
+2017-10-11 20:24:01.955 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+2017-10-11 20:24:01.955 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+2017-10-11 20:24:01.955 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2017-10-11 20:24:01.955 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+2017-10-11 20:24:01.955 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: true
+2017-10-11 20:24:01.962 [main] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: pooled
+2017-10-11 20:24:01.962 [main] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 65536
+2017-10-11 20:24:01.962 [main] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2017-10-11 20:24:13.270 [Thread-1] DEBUG io.netty.util.internal.logging.InternalLoggerFactory - Using SLF4J as the default logging framework
+2017-10-11 20:24:13.277 [Thread-1] DEBUG io.netty.channel.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 8
+2017-10-11 20:24:13.340 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent - Platform: Windows
+2017-10-11 20:24:13.341 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent0 - -Dio.netty.noUnsafe: false
+2017-10-11 20:24:13.342 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent0 - Java version: 8
+2017-10-11 20:24:13.343 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+2017-10-11 20:24:13.344 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+2017-10-11 20:24:13.344 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+2017-10-11 20:24:13.345 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent0 - direct buffer constructor: available
+2017-10-11 20:24:13.346 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: available, true
+2017-10-11 20:24:13.346 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2017-10-11 20:24:13.346 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): available
+2017-10-11 20:24:13.346 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent - sun.misc.Unsafe: available
+2017-10-11 20:24:13.346 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.tmpdir: C:\Users\HEHAOX~1\AppData\Local\Temp (java.io.tmpdir)
+2017-10-11 20:24:13.346 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2017-10-11 20:24:13.348 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+2017-10-11 20:24:13.348 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.maxDirectMemory: 1883242496 bytes
+2017-10-11 20:24:13.348 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2017-10-11 20:24:13.349 [Thread-1] DEBUG io.netty.util.internal.CleanerJava6 - java.nio.ByteBuffer.cleaner(): available
+2017-10-11 20:24:13.362 [Thread-1] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+2017-10-11 20:24:13.362 [Thread-1] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+2017-10-11 20:24:13.369 [Thread-1] DEBUG io.netty.util.internal.PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+2017-10-11 20:24:13.476 [Thread-1] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.processId: 12684 (auto-detected)
+2017-10-11 20:24:13.478 [Thread-1] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv4Stack: false
+2017-10-11 20:24:13.478 [Thread-1] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv6Addresses: false
+2017-10-11 20:24:13.511 [Thread-1] DEBUG io.netty.util.NetUtil - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2017-10-11 20:24:13.512 [Thread-1] DEBUG io.netty.util.NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2017-10-11 20:24:13.557 [Thread-1] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.machineId: 00:00:00:00:00:00:00:e0 (auto-detected)
+2017-10-11 20:24:13.562 [Thread-1] DEBUG io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2017-10-11 20:24:13.562 [Thread-1] DEBUG io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2017-10-11 20:24:13.569 [Thread-1] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+2017-10-11 20:24:13.569 [Thread-1] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.maxRecords: 4
+2017-10-11 20:24:13.570 [Thread-1] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.maxSampledRecords: 40
+2017-10-11 20:24:13.590 [Thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 8
+2017-10-11 20:24:13.590 [Thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 8
+2017-10-11 20:24:13.590 [Thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+2017-10-11 20:24:13.590 [Thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 11
+2017-10-11 20:24:13.590 [Thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 16777216
+2017-10-11 20:24:13.591 [Thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.tinyCacheSize: 512
+2017-10-11 20:24:13.591 [Thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+2017-10-11 20:24:13.591 [Thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+2017-10-11 20:24:13.591 [Thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2017-10-11 20:24:13.591 [Thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+2017-10-11 20:24:13.591 [Thread-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: true
+2017-10-11 20:24:13.598 [Thread-1] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: pooled
+2017-10-11 20:24:13.598 [Thread-1] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 65536
+2017-10-11 20:24:13.599 [Thread-1] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2017-10-11 20:24:14.054 [nioEventLoopGroup-5-1] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.maxCapacityPerThread: 32768
+2017-10-11 20:24:14.055 [nioEventLoopGroup-5-1] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+2017-10-11 20:24:14.055 [nioEventLoopGroup-5-1] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.linkCapacity: 16
+2017-10-11 20:24:14.055 [nioEventLoopGroup-5-1] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.ratio: 8
+2017-10-11 20:24:14.082 [nioEventLoopGroup-5-1] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.bytebuf.checkAccessible: true
+2017-10-11 20:24:14.083 [nioEventLoopGroup-5-1] DEBUG io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@69651bb
+2017-10-11 20:24:14.089 [nioEventLoopGroup-3-1] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.maxCapacityPerThread: 32768
+2017-10-11 20:24:14.089 [nioEventLoopGroup-3-1] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+2017-10-11 20:24:14.089 [nioEventLoopGroup-3-1] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.linkCapacity: 16
+2017-10-11 20:24:14.089 [nioEventLoopGroup-3-1] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.ratio: 8
+2017-10-11 20:24:14.096 [nioEventLoopGroup-3-1] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.bytebuf.checkAccessible: true
+2017-10-11 20:24:14.097 [nioEventLoopGroup-3-1] DEBUG io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@169b322d

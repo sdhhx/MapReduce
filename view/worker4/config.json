@@ -1,0 +1,44 @@
+{
+	"Mode" : "Distributed",
+	"Type" : "Worker",
+	"LocalIP" : "10.108.103.102",
+	"LocalPort" : 5004,
+	"Master" : {
+		"ipAddress": "10.108.101.74",
+		"port": 5000,
+		"username": "root",
+		"password": "123456789"
+	},
+	"WorkerList" : [
+		{
+			"ipAddress": "10.108.100.236",
+			"port": 5001,
+			"username": "root",
+			"password": "123456789"
+		},
+		{
+			"ipAddress": "10.108.100.125",
+			"port": 5002,
+			"username": "root",
+			"password": "123456789"
+		},
+		{
+			"ipAddress": "10.108.100.240",
+			"port": 5003,
+			"username": "root",
+			"password": "123456789"
+		},
+		{
+			"ipAddress": "10.108.103.102",
+			"port": 5004,
+			"username": "root",
+			"password": "123456789"
+		},
+		{
+			"ipAddress": "10.108.100.247",
+			"port": 5005,
+			"username": "root",
+			"password": "123456789"
+		}
+	]
+}
