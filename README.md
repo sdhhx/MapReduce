@@ -1,7 +1,7 @@
 MapReduce
 ================================
 
-@Author: hehaoxing
+@Author  hehaoxing
 
 这是一个简单的MapReduce计算框架，支持单机与分布式计算。参照了Google MapReduce论文加以简单实现。  
 
